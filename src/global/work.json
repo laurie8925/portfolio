@@ -1,0 +1,23 @@
+[
+    { 
+        "id": "wowies", 
+        "name": "WOWIES", 
+        "overview": "a movie database prototyped with Adobe XD and built with React. ", 
+        "feature": true, 
+        "image":{ 
+            "desktop":"/src/medias/wowies-desktop.png",
+            "mobile":"/src/medias/wowies-mobile.png"
+        }
+        
+    }, 
+    { 
+        "id": "portfolio", 
+        "name": "Portfolio Site", 
+        "overview": "a movie database prototyped with Adobe XD and built with React. ",
+        "feature": true, 
+        "image":{ 
+            "desktop":"/src/medias/frog.jpg",
+            "mobile":"/src/medias/frog.jpg"
+        }
+    }
+]
