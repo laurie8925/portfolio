@@ -2,22 +2,35 @@
     { 
         "id": "wowies", 
         "name": "WOWIES", 
-        "overview": "a movie database prototyped with Adobe XD and built with React. ", 
+        "overview": "A React App for browsing the latest movies and building your own favourite lists. ", 
         "feature": true, 
         "image":{ 
             "desktop":"/src/medias/wowies-desktop.png",
             "mobile":"/src/medias/wowies-mobile.png"
-        }
+        },  
+        "tech": ["React", "SaSS", "Rest API", "Adobe XD"]
         
     }, 
     { 
         "id": "portfolio", 
         "name": "Portfolio Site", 
-        "overview": "a movie database prototyped with Adobe XD and built with React. ",
+        "overview": "My portfolio website, created with React and Tailwind CSS to showcase who I am and my skills ",
         "feature": true, 
         "image":{ 
-            "desktop":"/src/medias/frog.jpg",
+            "desktop":"/src/medias/wowies-desktop.png",
             "mobile":"/src/medias/frog.jpg"
-        }
+        },
+        "tech": ["React", "Tailwind", "Rest API", "Figma"]
+    }, 
+    { 
+        "id": "froth", 
+        "name": "Froth Matcha Cafe", 
+        "overview": "A custom Wordpress site for a Matcha cafe ",
+        "feature": true, 
+        "image":{ 
+            "desktop":"/src/medias/wowies-desktop.png",
+            "mobile":"/src/medias/frog.jpg"
+        }, 
+        "tech": ["WordPress", "Sass", "PHP", "Figma"]
     }
 ]

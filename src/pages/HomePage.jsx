@@ -9,7 +9,7 @@ import Contact from '../components/Contact';
 
 function HomePage() {
   return (
-    <main >
+    <main className='px-5'>
     <Intro /> 
     <Feature /> 
     <About /> 

@@ -90,7 +90,7 @@ const SparkleAnimation = () => {
           viewBox="0 0 92.5 132.2"
           className="absolute inset-0 w-full h-full"
         >
-          <g id="sparkle4" className='-translate-x-6 translate-y-4.5 sm:translate-y-5 sm:-translate-x-1 md:-translate-x-0.5 lg:translate-x-7'>
+          <g id="sparkle4" className='-translate-x-3.5 translate-y-4.5 sm:translate-y-5 sm:-translate-x-1 md:-translate-x-0.5 lg:translate-x-7'>
             <path className="st6" d="M86.7,92.1c0,0,1.7-8.9,3.3,0c0,0,8.6,1.5,0,3.1c0,0-1.6,9.1-3.3,0C81.6,94.2,81.8,93.2,86.7,92.1z" />
             <path className="st6" d="M82,101.2c0,0,0.7-3.7,1.4,0c0,0,3.6,0.6,0,1.3c0,0-0.7,3.8-1.4,0C79.9,102.1,79.9,101.6,82,101.2z" />
             <circle className="st7" cx="97.5" cy="92.8" r="1.2" />
