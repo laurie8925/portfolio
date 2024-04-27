@@ -32,7 +32,7 @@ const Feature = () => {
     
   return (
     <section className='feature-section flex flex-col items-center justify-center overflow-hidden'>
-        <h1 className='text-3xl font-normal py-3'>Feature</h1>
+        <h2 className=' py-3 md:py-4 lg:py-10'>Feature</h2>
         
         <div className='grid gap-4'>
           {filterFeature().map((obj, index) => (
@@ -46,10 +46,11 @@ const Feature = () => {
                     <div className="relative md:w-1/2">
                       <img src={obj.image.desktop} alt={`${obj.name} desktop`} className='block h-auto w-full object-contain rounded-md'/>
                     </div>
+
                     <div className='md:w-1/2 md:flex md:flex-col md:justify-evenly'>
-                      <h3 className='text-2xl'>{obj.name}</h3>
-                      <p>{obj.overview}</p>
-                      <Link className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-1 px-3 rounded-2xl mx-auto' to={`/work/${obj.id}`}>
+                      <h3 >{obj.name}</h3>
+                      <p className='md:text-lg'>{obj.overview}</p>
+                      <Link className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-1 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg ' to={`/work/${obj.id}`}>
                         View Work 
                       </Link>
                     </div>

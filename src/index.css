@@ -52,3 +52,60 @@ h5,
 h6 {
   font-family: "Montserrat", serif;
 }
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+
+  @media (min-width: 768px) {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+.button_slide {
+  border: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 159 159 / var(--tw-bg-opacity));
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.3s ease;
+  z-index: 20;
+}
+
+.button_slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.308);
+  transition: left 0.3s ease;
+  z-index: 10;
+}
+
+.button_slide:hover::before {
+  left: 0;
+}
+
+.button_slide:hover {
+  color: #ffffff; /* Change text color on hover */
+}
+
+/* .slide_right:hover {
+  box-shadow: inset 400px 0 0 0 black;
+} */
