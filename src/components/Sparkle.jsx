@@ -43,8 +43,8 @@ const SparkleAnimation = () => {
         >
           <style type="text/css">
             {`
-              .st6{fill:#FF9F9F;} 
-              .st7{fill:#ffd2d2;}
+              .st6{fill:#ff9f9f;} 
+              .st7{fill:#ffdada;}
             `}
           </style>
           <g id="sparkle1" className='translate-y-6.5 md:-translate-x-0.5 lg:-translate-x-8'>

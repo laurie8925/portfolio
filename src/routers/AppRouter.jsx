@@ -14,7 +14,7 @@ export default function AppRouter() {
                 <Route path="/" element={<HomePage />} /> 
                 <Route path="/work" element={<WorkPage />} /> 
                 <Route path="/work/:id" element={<WorkDetailPage />} /> 
-                <Route path="/#about" element={<HomePage />} /> 
+                <Route path="#about" element={<HomePage />} /> 
             </Routes>
         </BrowserRouter>
     </div>

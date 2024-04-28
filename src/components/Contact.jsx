@@ -30,18 +30,18 @@ const Contact = () => {
         {/* either use div for the slider or use button tag to style the active state. (probably better to use button for mobile) */}
         <button className='
         flex flex-row items-center justify-center bg-theme text-white max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 
-        md:text-2xl md:py-4 md:px-12 md:max-w-80 button_slide slide_right
-         focus:ring-2 focus:ring-pink-500'><a href="#" className='text-lg md:text-2xl'>Copy Email</a></button>
+        md:text-2xl md:py-4 md:px-12 md:max-w-80 button_slide
+        focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme'><a href="#" className='text-lg md:text-2xl'>Copy Email</a></button>
       </div>
       
       <div className='z-30' data-aos="fade-up" data-aos-duration="1000">
         <h3 className=' text-center py-1 md:py-3'>Connect with me</h3>
-        <button className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 md:py-4 md:px-12 md:max-w-80 button_slide slide_right focus:ring-2 focus:ring-pink-400'><a href="#" className='text-lg md:text-2xl'>Linkedin</a></button>
+        <button className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 md:py-4 md:px-12 md:max-w-80 button_slide focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme'><a href="#" className='text-lg md:text-2xl'>Linkedin</a></button>
       </div>
 
       <div className='z-30' data-aos="fade-up" data-aos-duration="1000">
          <h3 className=' text-center py-1 md:py-3'>Check out my works</h3>
-         <button className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 md:py-4 md:px-12 md:max-w-80 button_slide slide_right focus:ring-2 focus:ring-pink-400'><a href="#" className='text-lg md:text-2xl'>Github</a></button>
+         <button className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 md:py-4 md:px-12 md:max-w-80 button_slide focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme'><a href="#" className='text-lg md:text-2xl'>Github</a></button>
       </div>
       
      

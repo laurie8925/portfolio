@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 import work from '../global/work.json'
 
 
+
+
 function WorkDetailPage() {
   const[workData, setWorkData] = useState(null); 
 
@@ -15,8 +17,11 @@ function WorkDetailPage() {
   return (
     <div>
       <Header />
+      <main>
         <h1>Work Detail Page</h1>
         <WorkDetail works={work}/> 
+      </main>
+        
       <Footer /> 
     </div>
   )

@@ -13,7 +13,7 @@ const About = () => {
       }, [])
 
   return (
-    <div className='about-section flex flex-col items-center justify-center h-screen  overflow-hidden '>
+    <section className='about flex flex-col items-center justify-center h-screen  overflow-hidden ' id="about">
       <article className='max-w-sm md:max-w-5xl text-pretty md:text-lg lg:text-xl' data-aos="fade-up" data-aos-duration="800">
         <p className='font-semibold ' >
         Hello &#128075; Welcome to my corner of the web! <br/>
@@ -28,7 +28,7 @@ const About = () => {
           <p > Aside from coding, I enjoy going on walks, trying out local food and dessert, on a journey to find all the good Matcha place, and look at cat memes. </p> 
       </article>
       
-    </div>
+    </section>
   );
 }
 
