@@ -3,12 +3,23 @@
         "id": "wowies", 
         "name": "WOWIES", 
         "overview": "A React App for browsing the latest movies and building your own favourite lists. ", 
+        "detailOverview":"A simple site built for Comprehensive Chemical & Water Treatment, a Saskatoon-based company that offers on-site testing, quality control, consultation, and distributing in the field of Water Treatment.",
         "feature": true, 
         "image":{ 
             "desktop":"/src/medias/wowies-desktop.png",
             "mobile":"/src/medias/wowies-mobile.png"
         },  
-        "tech": ["React", "SaSS", "Rest API", "Adobe XD"]
+        "tech": ["React", "SaSS", "Rest API", "Adobe XD"], 
+        "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
+        "liveLink": "https://laurieyeh.com/WOWIES/", 
+        "featureImg": "/src/medias/wowies-fav.png",
+        "featureExplain":"Me explaining my code her blah blah blah",
+        "codeSnippet": null, 
+        "designImg": null, 
+        "designExplain":"Me explaining my code her blah blah blah",
+        "takeawayOpening":"", 
+        "takeawayList":[], 
+        "takeawayEnding":""
         
     }, 
     { 

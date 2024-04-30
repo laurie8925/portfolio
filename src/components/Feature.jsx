@@ -31,7 +31,7 @@ const Feature = () => {
     }, [])
     
   return (
-    <section className='feature-section flex flex-col items-center justify-center overflow-hidden'>
+    <section className='feature-section flex flex-col items-center justify-center overflow-hidden' id="features">
         <h2 className=' py-3 md:py-4 lg:py-10'>Feature</h2>
         
         <div className='grid gap-4'>
@@ -40,7 +40,7 @@ const Feature = () => {
               <InView as="div" onChange={(inView, entry) => console.log('Inview:', inView)}>
                 {InView ? (
                   <article
-                    data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}
+                    
                     className={`single-project flex flex-col flex-nowrap justify-between gap-1 py-2 px-4 max-w-sm md:flex-row md:gap-x-5 md:max-w-5xl ${index % 2 === 0 ? '' : 'rounded-xl bg-lightpink'}`}
                   >
                     <div className="relative md:w-1/2">

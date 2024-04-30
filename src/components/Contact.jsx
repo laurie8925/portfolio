@@ -20,7 +20,7 @@ const Contact = () => {
 
 
   return (
-    <div className='contact-section flex flex-col items-center justify-center h-screen gap-y-4 relative md:gap-y-6'>
+    <div className='contact-section flex flex-col items-center justify-center h-screen gap-y-4 relative md:gap-y-6' id="contact">
       {isTablet ? <Sparkle />:""}
       
       <h2 className='py-3 font-bold z-30' data-aos="fade-up" data-aos-duration="1000">Let's Connect!  </h2>
