@@ -11,7 +11,7 @@ const WorkDetail = ({works}) => {
     }, [id, works]); 
 
   return (
-    <div>WorkDetail
+    <div>
         {selectedWork && (
         <div>
           <article>
@@ -19,20 +19,69 @@ const WorkDetail = ({works}) => {
               <img src={selectedWork.image.desktop} alt={`${selectedWork.name} desktop`} className='block h-auto w-full object-contain rounded-md'/>
             </div>
 
-            <div>
+            <div className='tools'>
               <h2>{selectedWork.name}</h2>
-              <p>{selectedWork.detailOverview}</p>
+              <p>{selectedWork.overview}</p>
+              <div>
+                <ul>
+                  {selectedWork.repoLink ? 
+                      <li><a href={selectedWork.liveLink}>Live Site</a></li>
+                      : 
+                      ""
+                  }
+
+                  {selectedWork.repoLink ? 
+                    <li><a href={selectedWork.repoLink}>Github</a></li>
+                    : 
+                    ""
+                  }
+                 
+                </ul>
+              </div>
+
+              
             </div>
           </article>
 
-          <div className='work-feature'>
+          <div className='work-overview'>
+            <h4>Tools</h4>
             {selectedWork.tech
             .map((tech, index) => (
               <span key={index}> {tech}</span>))
             .reduce((prev, curr) => [prev, ', ', curr])
             }
-
+            <p>{selectedWork.detailOverview}</p>
           </div>
+
+          <div className="work-features">
+            <h3>Feature</h3>
+            <img src={selectedWork.featureImg} alt={`${selectedWork.name} feature highlight`}className='block h-auto w-full object-contain rounded-md md:w-1/2'/>
+            <p>{selectedWork.featureExplain}</p>
+            <img src={selectedWork.codeSnippet} alt={selectedWork.codeSnippetAlt} className='block h-auto w-full object-contain rounded-md md:w-1/2'/>
+          </div>
+
+          <div className="work-design">
+            <h3>Design Insight</h3>
+            {selectedWork.designImg ? 
+            <img src={selectedWork.designImg} alt={`${selectedWork.name} design highlight`}className='block h-auto w-full object-contain rounded-md md:w-1/2'/>
+            :
+            ""
+            }
+            
+          <p>{selectedWork.designExplain}</p>
+          </div>
+
+          <div className="takeaway">
+            <h3>Takeaways</h3>
+            <p>{selectedWork.takeawayOpening}</p>
+            <ul className='list-disc list-inside'>
+              {selectedWork.takeawayList.map((takeaway, index) => (
+                <li key={index}>{takeaway}</li>
+              ))}
+            </ul>
+            <p>{selectedWork.takeawayEnding}</p>
+          </div>
+
         </div>
         
 

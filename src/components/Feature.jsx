@@ -10,19 +10,49 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
+
 const Feature = () => {
     const[workData, setWorkData] = useState(null); 
+    const [isLoaded, setLoadStatus] = useState(false)
 
-    useEffect(() => { 
-      setWorkData(work);       
-    },[]); 
+    useEffect(() => {
+      let url = "/src/global/work.json";
+      const fetchData = async () => {
+        try {
+          const res = await fetch(url);
+          const workData = await res.json();
+          setWorkData(workData);
+          console.log(workData);
+          if (workData) {
+            console.log("loaded");
+            setLoadStatus(true);
+          } else {
+            console.log("not loaded");
+          }
+        } catch (error) {
+          console.error("Error fetching data:", error);
+        }
+      };
+      fetchData();
+    }, []);
+      
+        // if(setWorkData(workData)){ 
+        //   // setLoadStatus(true);
+        //   console.log("loaded");
+        // }else{ 
+        //   // setLoadStatus(false); 
+        //   console.log("not loaded");
+        // }; 
+        // console.log(isLoaded)
+           
+
 
     // function to check feature 
     const filterFeature = () => { 
         if (workData) {
             return workData.filter(obj => obj.hasOwnProperty('feature'));
             }
-            return [];
+            return [work];
     };
 
     //aos 
@@ -31,26 +61,32 @@ const Feature = () => {
     }, [])
     
   return (
-    <section className='feature-section flex flex-col items-center justify-center overflow-hidden' id="features">
+    <div>
+      {isLoaded ? 
+          <section className='feature-section flex flex-col items-center justify-center' id="features">
         <h2 className=' py-3 md:py-4 lg:py-10'>Feature</h2>
         
         <div className='grid gap-4'>
           {filterFeature().map((obj, index) => (
             <div key={obj.id}>
-              <InView as="div" onChange={(inView, entry) => console.log('Inview:', inView)}>
+              <InView as="div" onChange={(inView, entry) => {console.log('Inview:', inView)}}>
                 {InView ? (
-                  <article
+                 
+                  <article  data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
                     
                     className={`single-project flex flex-col flex-nowrap justify-between gap-1 py-2 px-4 max-w-sm md:flex-row md:gap-x-5 md:max-w-5xl ${index % 2 === 0 ? '' : 'rounded-xl bg-lightpink'}`}
                   >
-                    <div className="relative md:w-1/2">
+
+                    
+                    <div className="relative md:w-1/2 p-4">
                       <img src={obj.image.desktop} alt={`${obj.name} desktop`} className='block h-auto w-full object-contain rounded-md'/>
                     </div>
 
                     <div className='md:w-1/2 md:flex md:flex-col md:justify-evenly'>
                       <h3 >{obj.name}</h3>
                       <p className='md:text-lg'>{obj.overview}</p>
-                      <Link className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-1 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg ' to={`/work/${obj.id}`}>
+                      <Link className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-1 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide
+                      focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' to={`/work/${obj.id}`}>
                         View Work 
                       </Link>
                     </div>
@@ -63,6 +99,13 @@ const Feature = () => {
 
       
     </section>
+
+    : 
+    <div>Loading...</div>
+    
+    }
+    </div>
+
   )
 }; 
 

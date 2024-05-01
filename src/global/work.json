@@ -13,13 +13,15 @@
         "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
         "featureImg": "/src/medias/wowies-fav.png",
-        "featureExplain":"Me explaining my code her blah blah blah",
+        "featureAlt":"Favourite Movie Feature",
+        "featureExplain":"One of the most beloved features of my movie database app is the 'Add to Favorites' functionality. This feature allows users to curate their own personalized collection of favorite films by simply clicking a heart icon next to each movie. Once added to favorites, users can easily access and revisit their preferred movies at any time with just a tap or click. This feature enhances user satisfaction by providing a convenient way to keep track of beloved films, fostering a deeper connection between users and the app. Whether it's rewatching old favorites or discovering new ones, the 'Add to Favorites' feature enhances the overall user experience, making it a cherished aspect of the app.",
         "codeSnippet": null, 
-        "designImg": null, 
-        "designExplain":"Me explaining my code her blah blah blah",
-        "takeawayOpening":"", 
-        "takeawayList":[], 
-        "takeawayEnding":""
+        "codeSnippetAlt": null, 
+        "designImg": "/src/medias/wowies-design.png",
+        "designExplain":"My favorite feature of my movie database app is its minimalist yet striking dark purple design. The choice of color scheme creates a visually appealing and immersive experience, evoking a sense of sophistication and intrigue. The sleek interface and intuitive layout enhance user engagement, making it easy and enjoyable to explore the vast collection of films. This design choice not only sets the app apart aesthetically but also contributes to a memorable and captivating user experience.",
+        "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gleaned valuable insights into essential aspects of web development: ", 
+        "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage" ], 
+        "takeawayEnding":"These takeaways have equipped me with the skills needed to create dynamic and user-centric movie browsing experiences."
         
     }, 
     { 
@@ -31,7 +33,19 @@
             "desktop":"/src/medias/wowies-desktop.png",
             "mobile":"/src/medias/frog.jpg"
         },
-        "tech": ["React", "Tailwind", "Rest API", "Figma"]
+        "tech": ["React", "Tailwind", "Rest API", "Figma"], 
+        "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
+        "liveLink": "https://laurieyeh.com/WOWIES/", 
+        "featureImg": "/src/medias/wowies-fav.png",
+        "featureAlt":"Favourite Movie Feature",
+        "featureExplain":"One of the most beloved features of my movie database app is the 'Add to Favorites' functionality. This feature allows users to curate their own personalized collection of favorite films by simply clicking a heart icon next to each movie. Once added to favorites, users can easily access and revisit their preferred movies at any time with just a tap or click. This feature enhances user satisfaction by providing a convenient way to keep track of beloved films, fostering a deeper connection between users and the app. Whether it's rewatching old favorites or discovering new ones, the 'Add to Favorites' feature enhances the overall user experience, making it a cherished aspect of the app.",
+        "codeSnippet": null, 
+        "codeSnippetAlt": null, 
+        "designImg": "/src/medias/wowies-design.png",
+        "designExplain":"My favorite feature of my movie database app is its minimalist yet striking dark purple design. The choice of color scheme creates a visually appealing and immersive experience, evoking a sense of sophistication and intrigue. The sleek interface and intuitive layout enhance user engagement, making it easy and enjoyable to explore the vast collection of films. This design choice not only sets the app apart aesthetically but also contributes to a memorable and captivating user experience.",
+        "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gleaned valuable insights into essential aspects of web development: ", 
+        "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage" ], 
+        "takeawayEnding":"These takeaways have equipped me with the skills needed to create dynamic and user-centric movie browsing experiences."
     }, 
     { 
         "id": "froth", 
@@ -42,6 +56,8 @@
             "desktop":"/src/medias/wowies-desktop.png",
             "mobile":"/src/medias/frog.jpg"
         }, 
-        "tech": ["WordPress", "Sass", "PHP", "Figma"]
+        "tech": ["WordPress", "Sass", "PHP", "Figma"], 
+        "designImg": null,
+        "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage" ]
     }
 ]
