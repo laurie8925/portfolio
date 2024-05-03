@@ -8,7 +8,7 @@ import Feature from '../components/Feature';
 import About from "../components/About"; 
 import Contact from '../components/Contact';
 
-import { Loading } from '../components/Loading';
+
 
 import logo from '../medias/portfolio-logo-final.svg'; 
 
@@ -40,9 +40,9 @@ function HomePage() {
 
   return (
     <body className='relative'>
-      <header>
+      
         <img src={logo} alt="Logo" className='logo lg:w-1/12'/>
-      </header>
+      
       
       <main className='px-5'>
         <Intro /> 

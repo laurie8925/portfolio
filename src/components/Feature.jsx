@@ -9,6 +9,8 @@ import { InView } from 'react-intersection-observer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import  Loading  from '../components/Loading';
+
 
 
 const Feature = () => {
@@ -63,13 +65,13 @@ const Feature = () => {
   return (
     <div>
       {isLoaded ? 
-          <section className='feature-section flex flex-col items-center justify-center' id="features">
+          <section className='feature-section flex flex-col items-center justify-center overflow-hidden' id="features">
         <h2 className=' py-3 md:py-4 lg:py-10'>Feature</h2>
         
         <div className='grid gap-4'>
           {filterFeature().map((obj, index) => (
             <div key={obj.id}>
-              <InView as="div" onChange={(inView, entry) => {console.log('Inview:', inView)}}>
+              <InView as="div" onChange={(inView, entry) => {}}>
                 {InView ? (
                  
                   <article  data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
@@ -87,7 +89,7 @@ const Feature = () => {
                       <p className='md:text-lg'>{obj.overview}</p>
                       <Link className='flex flex-row items-center justify-center bg-theme text-white max-w-32 py-1 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide
                       focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' to={`/work/${obj.id}`}>
-                        View Work 
+                      View Work 
                       </Link>
                     </div>
                   </article>
@@ -101,7 +103,7 @@ const Feature = () => {
     </section>
 
     : 
-    <div>Loading...</div>
+    <Loading />
     
     }
     </div>

@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer'; 
 
 import WorkList from '../components/WorkList'; 
+import  Loading  from '../components/Loading';
 
 //data
 import work from '../global/work.json'

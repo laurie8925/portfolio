@@ -24,8 +24,8 @@ function WorkDetailPage() {
       {isTablet ? 
       <div>
         <Header />
-          <main className='px-5'>
-            <h1>Work Detail Page</h1>
+          <main className=' md:mx-auto md:my-0'>
+            
             <WorkDetail works={work}/> 
           </main>
             
@@ -37,7 +37,6 @@ function WorkDetailPage() {
         <div>
         <Header />
           <main className='footer-padding px-5'>
-            <h1>Work Detail Page</h1>
             <WorkDetail works={work}/> 
           </main>
             

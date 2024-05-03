@@ -5,7 +5,7 @@ import { HashLink, NavHashLink } from 'react-router-hash-link';
 import { tabletWidth } from "../global/variables"; 
 import useWindowDimensions from '../components/ScreenSize'
 
-import logo from '../medias/portfolio-logo-final.svg'; 
+import logo from '../medias/portfolio-logo-finalv2.svg'; 
 
 
 const Nav = () => {
@@ -13,7 +13,7 @@ const Nav = () => {
     const isTablet = dimensions.width > tabletWidth;
 
     return (
-        <nav className='main-nav bg-white'>
+        <nav className='main-nav'>
             {isTablet ? (
                 <ul>
                      <li><HashLink smooth to="/work">WORK</HashLink></li>

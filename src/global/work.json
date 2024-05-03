@@ -3,25 +3,27 @@
         "id": "wowies", 
         "name": "WOWIES", 
         "overview": "A React App for browsing the latest movies and building your own favourite lists. ", 
-        "detailOverview":"A simple site built for Comprehensive Chemical & Water Treatment, a Saskatoon-based company that offers on-site testing, quality control, consultation, and distributing in the field of Water Treatment.",
+        "detailOverview":"Wowies, a movie database react app, showcases my skills in frontend development. With a clean and intuitive interface, this app offers users a seamless browsing experience through a diverse collection of films. Designed with user convenience in mind, features like 'Add to Favorites' simplify organization and enhance user engagement. Throughout the development process, I focused on creating a user-friendly and responsive application that caters to movie enthusiasts of all levels. This project not only demonstrates my proficiency with React but also highlights my ability to tackle real-world challenges and deliver polished, user-centric solutions.",
         "feature": true, 
         "image":{ 
             "desktop":"/src/medias/wowies-desktop.png",
-            "mobile":"/src/medias/wowies-mobile.png"
+            "mobile":"/src/medias/wowies-mobile.png",
+            "hero":"/src/medias/wowies-hero.png"
         },  
+        "theme": "rgb(254, 249, 195)",
         "tech": ["React", "SaSS", "Rest API", "Adobe XD"], 
         "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
-        "featureImg": "/src/medias/wowies-fav.png",
+        "featureImg": "/src/medias/wowies-fav-v2.png",
         "featureAlt":"Favourite Movie Feature",
-        "featureExplain":"One of the most beloved features of my movie database app is the 'Add to Favorites' functionality. This feature allows users to curate their own personalized collection of favorite films by simply clicking a heart icon next to each movie. Once added to favorites, users can easily access and revisit their preferred movies at any time with just a tap or click. This feature enhances user satisfaction by providing a convenient way to keep track of beloved films, fostering a deeper connection between users and the app. Whether it's rewatching old favorites or discovering new ones, the 'Add to Favorites' feature enhances the overall user experience, making it a cherished aspect of the app.",
+        "featureExplain":"A notable feature of the movie database app is the \"Add to Favorites\" option. This allows users to create a personalized collection of favorite films by clicking a heart icon on the movie detail page. Once added, users can easily access and revisit the favorite movies anytime on their Favorites page. This feature boosts user satisfaction by providing a convenient way to keep track of favorite films, enhancing the overall user experience and becoming a beloved aspect of the app.",
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
-        "designImg": "/src/medias/wowies-design.png",
-        "designExplain":"My favorite feature of my movie database app is its minimalist yet striking dark purple design. The choice of color scheme creates a visually appealing and immersive experience, evoking a sense of sophistication and intrigue. The sleek interface and intuitive layout enhance user engagement, making it easy and enjoyable to explore the vast collection of films. This design choice not only sets the app apart aesthetically but also contributes to a memorable and captivating user experience.",
-        "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gleaned valuable insights into essential aspects of web development: ", 
+        "designImg": "/src/medias/wowies-designv2.png",
+        "designExplain":"The focus of the homepage is on making movie browsing simple and immediate. It offers direct access to a wide range of movies and categories right from the home page. This design choice ensures quick and easy navigation for users to explore and find content effortlessly.\nAnother feature of the movie database app is its sleek dark purple design. This choice of color scheme makes the app visually appealing and immersive. The intuitive layout improves user engagement, making it simple and enjoyable to explore the extensive film collection.",
+        "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gained valuable insights into essential aspects of web development: ", 
         "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage" ], 
-        "takeawayEnding":"These takeaways have equipped me with the skills needed to create dynamic and user-centric movie browsing experiences."
+        "takeawayEnding":"Such as fetching data from REST APIs, using React Router for smooth navigation, and storing and retrieving data from Local Storage. These takeaways have provided me with the skills needed to create dynamic and user-centric movie browsing experiences."
         
     }, 
     { 
@@ -30,21 +32,23 @@
         "overview": "My portfolio website, created with React and Tailwind CSS to showcase who I am and my skills ",
         "feature": true, 
         "image":{ 
-            "desktop":"/src/medias/wowies-desktop.png",
-            "mobile":"/src/medias/frog.jpg"
+            "desktop":"/src/medias/portfolio-desktop.png",
+            "mobile":"/src/medias/frog.jpg",
+            "hero":"/src/medias/portfolio-hero.png"
         },
+        "theme":"rgb(191, 219, 254)",
         "tech": ["React", "Tailwind", "Rest API", "Figma"], 
         "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
-        "featureImg": "/src/medias/wowies-fav.png",
+        "featureImg": "/src/medias/wowies-fav-v2.png",
         "featureAlt":"Favourite Movie Feature",
         "featureExplain":"One of the most beloved features of my movie database app is the 'Add to Favorites' functionality. This feature allows users to curate their own personalized collection of favorite films by simply clicking a heart icon next to each movie. Once added to favorites, users can easily access and revisit their preferred movies at any time with just a tap or click. This feature enhances user satisfaction by providing a convenient way to keep track of beloved films, fostering a deeper connection between users and the app. Whether it's rewatching old favorites or discovering new ones, the 'Add to Favorites' feature enhances the overall user experience, making it a cherished aspect of the app.",
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
-        "designImg": "/src/medias/wowies-design.png",
+        "designImg": "/src/medias/wowies-designv2.png",
         "designExplain":"My favorite feature of my movie database app is its minimalist yet striking dark purple design. The choice of color scheme creates a visually appealing and immersive experience, evoking a sense of sophistication and intrigue. The sleek interface and intuitive layout enhance user engagement, making it easy and enjoyable to explore the vast collection of films. This design choice not only sets the app apart aesthetically but also contributes to a memorable and captivating user experience.",
         "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gleaned valuable insights into essential aspects of web development: ", 
-        "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage" ], 
+        "takeawayList":["Data fetching from local storage", "Tailwind CSS", "Storing and retrieving data from Local Storage" ], 
         "takeawayEnding":"These takeaways have equipped me with the skills needed to create dynamic and user-centric movie browsing experiences."
     }, 
     { 
@@ -56,6 +60,7 @@
             "desktop":"/src/medias/wowies-desktop.png",
             "mobile":"/src/medias/frog.jpg"
         }, 
+        "theme":"rgb(191, 219, 254)",
         "tech": ["WordPress", "Sass", "PHP", "Figma"], 
         "designImg": null,
         "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage" ]
