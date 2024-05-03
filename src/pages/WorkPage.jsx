@@ -7,6 +7,10 @@ import Footer from '../components/Footer';
 import WorkList from '../components/WorkList'; 
 import  Loading  from '../components/Loading';
 
+import { tabletWidth } from "../global/variables"; 
+import useWindowDimensions from '../components/ScreenSize';
+
+
 //data
 import work from '../global/work.json'
 
@@ -18,12 +22,25 @@ function WorkPage() {
       setWorkData(work);  
     },[]); 
 
+    const dimensions = useWindowDimensions();
+    const isTablet = dimensions.width > tabletWidth;
+
   return (
     <>
-    <Header />
+    {isTablet ? 
+    <div>
+      <Header />
+        <h1>Work Page</h1>
+        <WorkList works={work}/> 
+      <Footer />
+    </div>
+    :
+    <div>
+      <Header />
       <h1>Work Page</h1>
-    <WorkList works={work}/> 
-    <Footer />
+      <WorkList works={work}/> 
+    </div>
+    }
     </>
   )
 }

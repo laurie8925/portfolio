@@ -57,7 +57,7 @@ h2 {
   font-size: 1.875rem;
   line-height: 2.25rem;
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     font-size: 2.25rem; /* 36px */
     line-height: 2.5rem; /* 40px */
   }
@@ -67,7 +67,7 @@ h3 {
   font-size: 1.5rem;
   line-height: 2rem;
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
@@ -75,7 +75,7 @@ h3 {
 
 p {
   text-wrap: pretty;
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     line-height: 1.75;
   }
 }
@@ -108,7 +108,7 @@ p {
     width: 25%;
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     width: 20%;
   }
 
@@ -149,7 +149,7 @@ p {
     width: 30%;
   }
 
-  @media (min-width: 700px) {
+  @media (min-width: 768px) {
     width: 25%;
   }
 
@@ -175,7 +175,7 @@ p {
     background-color: rgba(0, 0, 0, 0);
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     z-index: 100;
     background-color: white;
     position: fixed;
@@ -280,4 +280,22 @@ p {
 .cross svg {
   transform: rotate(45deg);
   transition: 0.2s ease-in-out;
+}
+
+footer {
+  height: 100px;
+}
+
+.footer-icons {
+  stroke: #ffffffd1;
+  height: 35px;
+  &:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+    stroke: white;
+  }
+}
+
+.github-footer:hover {
+  fill: white;
 }

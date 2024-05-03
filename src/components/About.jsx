@@ -14,7 +14,7 @@ const About = () => {
     }, []);
 
     return (
-        <section className='about flex flex-col items-center justify-center  overflow-hidden pt-60' id="about">
+        <section className='about flex flex-col items-center justify-center  overflow-hidden py-20 md:py-40' id="about">
             <InView as="div"oonChange={(inView, entry) => {}}>
                 {InView ? (
                 <article className='max-w-sm md:max-w-5xl text-pretty md:text-lg lg:text-xl' >

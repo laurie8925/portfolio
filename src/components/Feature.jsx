@@ -26,8 +26,10 @@ const Feature = () => {
           setWorkData(workData);
           console.log(workData);
           if (workData) {
+            setTimeout(() => {
+              setLoadStatus(true);
+            }, 2000);
             console.log("loaded");
-            setLoadStatus(true);
           } else {
             console.log("not loaded");
           }

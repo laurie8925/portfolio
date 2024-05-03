@@ -24,7 +24,7 @@ function WorkDetailPage() {
       {isTablet ? 
       <div>
         <Header />
-          <main className=' md:mx-auto md:my-0'>
+          <main className=' md:mx-auto md:my-0 pb-4'>
             
             <WorkDetail works={work}/> 
           </main>

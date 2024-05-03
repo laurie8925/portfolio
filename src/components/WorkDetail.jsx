@@ -154,7 +154,7 @@ const WorkDetail = ({works}) => {
               
             </div> */}
   
-            <div className='md:max-w-5xl md:mx-auto md:my-0 pt-8'>
+            <div className='md:max-w-5xl md:mx-auto md:my-0 pt-8 px-5'>
               <p>{selectedWork.detailOverview}</p>
               {selectedWork.featureExplain ? 
               <div className="work-features pb-3">
