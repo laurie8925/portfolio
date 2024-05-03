@@ -38,7 +38,7 @@
         },
         "theme":"rgb(191, 219, 254)",
         "tech": ["React", "Tailwind", "Rest API", "Figma"], 
-        "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
+        "repoLink":"https://github.com/laurie8925/laurie-portfolio", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
         "featureImg": "/src/medias/wowies-fav-v2.png",
         "featureAlt":"Favourite Movie Feature",

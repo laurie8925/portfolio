@@ -256,3 +256,28 @@ p {
 .footer-padding {
   padding-bottom: 85px;
 }
+
+.skill-card {
+  @media (min-width: 500px) {
+    width: 45%;
+  }
+  @media (min-width: 800px) {
+    width: 30%;
+  }
+  @media (min-width: 1200px) {
+    width: 23%;
+  }
+}
+
+.plus svg {
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    transform: rotate(45deg);
+  }
+}
+
+.cross svg {
+  transform: rotate(45deg);
+  transition: 0.2s ease-in-out;
+}

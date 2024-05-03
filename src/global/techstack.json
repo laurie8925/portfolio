@@ -3,120 +3,115 @@
         "id":"html",
         "title": "HTML5", 
         "img": "html",
-        "type":["dev"]
+        "type":"dev"
     }, 
     { 
         "id":"css",
         "title": "CSS 3", 
         "img": "css",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"sass",
         "title": "SASS / SCSS", 
         "img": "sass",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"javascript",
         "title": "Javascript", 
         "img": "javascript",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"jquery",
         "title": "JQuery", 
         "img": "jquery",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"react",
         "title": "React", 
         "img": "react",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"php",
         "title": "PHP", 
         "img": "php",
-        "type":["dev"]
+        "type":"dev"
+    },
+    { 
+        "id":"mysql",
+        "title": "MySQL", 
+        "img": "mysql",
+        "type":"dev"
     },
     { 
         "id":"wordpress",
         "title": "WordPress", 
         "img": "wordpress",
-        "type":["dev"]
+        "type":"dev"
     },
-    { 
-        "id":"woocommerce",
-        "title": "WooCommerce", 
-        "img": "woocommerce",
-        "type":["dev"]
-    },
+   
     { 
         "id":"shopify",
         "title": "Shopify", 
         "img": "shopify",
-        "type":["dev"]
-    },
-    { 
-        "id":"liquid",
-        "title": "Liquid", 
-        "img": "liquid",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"git",
         "title": "Git", 
         "img": "git",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"github",
         "title": "GitHub", 
         "img": "github",
-        "type":["dev"]
+        "type":"dev"
     }, 
     { 
         "id":"gulp",
         "title": "Gulp", 
         "img": "gulp",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"api",
         "title": "Rest API", 
         "img": "rest-api",
-        "type":["dev"]
+        "type":"dev"
     },
     { 
         "id":"figma",
         "title": "Figma", 
         "img": "figma",
-        "type":["design"]
+        "type":"design"
     },
     { 
         "id":"illustrator",
         "title": "Illustrator", 
         "img": "illustrator",
-        "type":["design"]
+        "type":"design"
     },
     { 
         "id":"photoshop",
         "title": "Photoshop", 
         "img": "photoshop",
-        "type":["design"]
+        "type":"design"
     },
     { 
         "id":"xd",
         "title": "Xd", 
         "img": "xd",
-        "type":["design"]
+        "type":"design"
     },
     { 
         "id":"canva",
         "title": "Canva", 
         "img": "canva",
-        "type":["design"]
+        "type":"design"
     }   
 ]
