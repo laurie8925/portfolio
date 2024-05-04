@@ -23,7 +23,7 @@ const WorkDetail = ({works}) => {
       setTimeout(() => {
         setSelectedWork(singleWork);
         setLoadStatus(true);
-    }, 2000);
+    }, 1000);
       
     }, [id, works]);
 
@@ -44,6 +44,7 @@ const WorkDetail = ({works}) => {
       <div>
   
             {isTablet ? (
+              // tablet & desktop
             <div className="w-full" style={{ backgroundColor: selectedWork.theme }}>
               <article className='flex flex-col flex-nowrap justify-between gap-1 py-8 pt-36 md:flex-row md:gap-x-5 md:max-w-5xl  md:mx-auto md:my-0'>
   
@@ -99,6 +100,7 @@ const WorkDetail = ({works}) => {
             </div>
             )
             : (
+              // mobile 
             <article className='flex flex-col flex-nowrap justify-between gap-1 py-4 pt-10 md:flex-row md:gap-x-5 md:max-w-5xl'>
   
               

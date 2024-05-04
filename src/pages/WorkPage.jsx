@@ -28,10 +28,12 @@ function WorkPage() {
   return (
     <>
     
-    <div className='pt-10'>
+    <div>
       <Header />
+        <main className='px-5'>
+          <WorkList works={work}/> 
+        </main>
         
-        <WorkList works={work}/> 
       <Footer />
     </div>
     

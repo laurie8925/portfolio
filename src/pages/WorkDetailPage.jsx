@@ -21,10 +21,10 @@ function WorkDetailPage() {
   return (
     <>
 
-      {isTablet ? 
+      
       <div>
         <Header />
-          <main className=' md:mx-auto md:my-0 pb-4'>
+          <main className={isTablet ? 'md:mx-auto md:my-0 pb-4' : ''}>
             
             <WorkDetail works={work}/> 
           </main>
@@ -33,16 +33,7 @@ function WorkDetailPage() {
       </div>
       
         
-        :
-        <div>
-        <Header />
-          <main className='px-5'>
-            <WorkDetail works={work}/> 
-          </main>
-            
-        <Footer /> 
-      </div>
-      }
+      
       
         
     </>

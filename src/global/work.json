@@ -14,7 +14,7 @@
         "tech": ["React", "SaSS", "Rest API", "Adobe XD"], 
         "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
-        "featureImg": "/src/medias/wowies-fav-v2.png",
+        "featureImg": "/src/medias/wowies-feature.png",
         "featureAlt":"Favourite Movie Feature",
         "featureExplain":"A notable feature of the movie database app is the \"Add to Favorites\" option. This allows users to create a personalized collection of favorite films by clicking a heart icon on the movie detail page. Once added, users can easily access and revisit the favorite movies anytime on their Favorites page. This feature boosts user satisfaction by providing a convenient way to keep track of favorite films, enhancing the overall user experience and becoming a beloved aspect of the app.",
         "codeSnippet": null, 
@@ -40,24 +40,38 @@
         "tech": ["React", "Tailwind", "Rest API", "Figma"], 
         "repoLink":"https://github.com/laurie8925/laurie-portfolio", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
-        "featureImg": "/src/medias/wowies-fav-v2.png",
-        "featureAlt":"Favourite Movie Feature",
-        "featureExplain":"One of the most beloved features of my movie database app is the 'Add to Favorites' functionality. This feature allows users to curate their own personalized collection of favorite films by simply clicking a heart icon next to each movie. Once added to favorites, users can easily access and revisit their preferred movies at any time with just a tap or click. This feature enhances user satisfaction by providing a convenient way to keep track of beloved films, fostering a deeper connection between users and the app. Whether it's rewatching old favorites or discovering new ones, the 'Add to Favorites' feature enhances the overall user experience, making it a cherished aspect of the app.",
+        "featureImg": "/src/medias/portfolio-feature.png",
+        "featureAlt":"Responsiveness Feature",
+        "featureExplain":"One notable feature is its dynamic handling of data. This means that the portfolio can easily update and display new information or content without manual intervention. For instance, I can add, remove, or update projects or achievements by editing my json file, without needing to modify the website's code. This dynamic capability ensures that my portfolio stays current and reflects my latest accomplishments. It also allows for seamless integration with external data sources or APIs for real-time updates or fetching of information, enhancing the portfolio's flexibility and adaptability for showcasing my skills and experiences",
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
-        "designImg": "/src/medias/wowies-designv2.png",
-        "designExplain":"My favorite feature of my movie database app is its minimalist yet striking dark purple design. The choice of color scheme creates a visually appealing and immersive experience, evoking a sense of sophistication and intrigue. The sleek interface and intuitive layout enhance user engagement, making it easy and enjoyable to explore the vast collection of films. This design choice not only sets the app apart aesthetically but also contributes to a memorable and captivating user experience.",
-        "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gleaned valuable insights into essential aspects of web development: ", 
+        "designImg": "/src/medias/portfolio-design.png",
+        "designExplain":"I created this website with a mobile-first design approach. This approach ensures that the portfolio is user-friendly and accessible on mobile devices, prioritizing ease of use for visitors browsing on smartphones and tablets. By placing importance on mobile compatibility, their portfolio provides a seamless experience across different screen sizes, emphasizing accessibility for all users.",
+        "takeawayOpening":"From my experience working on my portfolio website, I've learned valuable skills and troubleshooting into import aspects of dynamic web development: ", 
         "takeawayList":["Data fetching from local storage", "Tailwind CSS", "Storing and retrieving data from Local Storage" ], 
-        "takeawayEnding":"These takeaways have equipped me with the skills needed to create dynamic and user-centric movie browsing experiences."
+        "takeawayEnding":"While working on my portfolio website, I've gained experience with skills in data fetching from local storage, using Tailwind CSS for efficient styling, and proficiently storing and retrieving data from local storage. These abilities enable me to develop dynamic and responsive web applications with streamlined data management, enhancing user experience and functionality. As I continue to refine and expand upon these skills, I am ready to tackle new challenges and deliver impactful web solutions."
     }, 
     { 
         "id": "froth", 
         "name": "Froth Matcha Cafe", 
-        "overview": "A custom Wordpress site for a Matcha cafe ",
+        "overview": "WordPress website, featuring a curated selection of matcha drinks and pastries",
         "feature": true, 
         "image":{ 
-            "desktop":"/src/medias/wowies-desktop.png",
+            "desktop":"/src/medias/froth-desktop.png",
+            "mobile":"/src/medias/frog.jpg", 
+            "hero":"/src/medias/froth-desktop.png"
+        }, 
+        "theme":"rgb(236, 252, 207)",
+        "tech": ["WordPress", "Sass", "Gulp", "PHP", "Figma"], 
+        "designImg": null,
+        "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage" ]
+    },  { 
+        "id": "taipei", 
+        "name": "Taipei Website", 
+        "overview": "A website showcases Taipei's culinary delights and stunning scenery",
+        
+        "image":{ 
+            "desktop":"/src/medias/taipei-desktop.png",
             "mobile":"/src/medias/frog.jpg"
         }, 
         "theme":"rgb(191, 219, 254)",
