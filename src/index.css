@@ -283,19 +283,36 @@ p {
 }
 
 footer {
-  height: 100px;
+  height: 200px;
+
+  @media (min-width: 768px) {
+    height: 100px;
+  }
 }
 
 .footer-icons {
-  stroke: #ffffffd1;
-  height: 35px;
-  &:hover {
+  stroke: #ff9f9fc5;
+
+  &:active {
     transform: translateY(-5px);
     transition: transform 0.2s ease;
-    stroke: white;
+    stroke: #ff9f9f;
+  }
+
+  @media (min-width: 768px) {
+    stroke: #ffffffd1;
+    height: 35px;
+    &:hover {
+      transform: translateY(-5px);
+      transition: transform 0.2s ease;
+      stroke: white;
+    }
   }
 }
 
 .github-footer:hover {
-  fill: white;
+  fill: #ff9f9f;
+  @media (min-width: 768px) {
+    fill: white;
+  }
 }

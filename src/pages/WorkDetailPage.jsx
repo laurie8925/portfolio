@@ -36,11 +36,11 @@ function WorkDetailPage() {
         :
         <div>
         <Header />
-          <main className='footer-padding px-5'>
+          <main className='px-5'>
             <WorkDetail works={work}/> 
           </main>
             
-          
+        <Footer /> 
       </div>
       }
       

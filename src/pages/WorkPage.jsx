@@ -27,20 +27,14 @@ function WorkPage() {
 
   return (
     <>
-    {isTablet ? 
-    <div>
+    
+    <div className='pt-10'>
       <Header />
-        <h1>Work Page</h1>
+        
         <WorkList works={work}/> 
       <Footer />
     </div>
-    :
-    <div>
-      <Header />
-      <h1>Work Page</h1>
-      <WorkList works={work}/> 
-    </div>
-    }
+    
     </>
   )
 }
