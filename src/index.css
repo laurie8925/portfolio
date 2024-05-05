@@ -126,6 +126,7 @@ p {
   fill: black; /* Change to your desired color */
 }
 
+/* header div of nav */
 .nav-header {
   display: flex;
   flex-wrap: wrap;
@@ -157,6 +158,8 @@ p {
     width: 30%;
   }
 }
+
+/* classname of nav tag in nav component */
 .main-nav {
   margin-right: 20px;
   box-shadow: none;
@@ -171,10 +174,19 @@ p {
     background-color: rgba(0, 0, 0, 0);
   }
   li {
-    padding: 0 1rem;
+    padding: 0.75rem 1rem;
     background-color: rgba(0, 0, 0, 0);
+    &:hover {
+      background-color: #ff9f9f;
+      color: white;
+      border-radius: 1rem;
+    }
+    &:active {
+      background-color: #f77d7d;
+    }
   }
 
+  /* mobile */
   @media (max-width: 768px) {
     z-index: 100;
     background-color: white;

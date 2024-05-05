@@ -45,11 +45,11 @@ const WorkList = ({works}) => {
     <div>
       {isTablet ? (
         // tablet & desktop
-        <div className='flex flex-wrap justify-center mx-auto my-0 md:gap-4 md:max-w-5xl w-full'>
+        <div className='flex flex-wrap justify-center mx-auto my-0 md:gap-4 md: max-w-full lg:max-w-5xl w-full'>
         {works.map((obj, index) => (
           <div key={obj.id}>
             <article  data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}  
-              className={`single-project gap-1 py-3 px-4 max-w-sm md:max-w-md
+              className={`single-project gap-1 py-3 px-4 max-w-xs lg:max-w-md
               flex flex-col justify-center rounded-xl w-full ${index % 3 === 0 ? '' : 'bg-lightpink'}`}>
               <div className="relative md:w-full ">
                 <img src={obj.image.desktop} alt={`${obj.name} desktop`} className='block h-auto w-full object-contain rounded-md'/>
@@ -74,7 +74,7 @@ const WorkList = ({works}) => {
           <div key={obj.id}>
             <article  data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}  
               className={`single-project gap-1 py-3 px-4 max-w-sm 
-              flex flex-col justify-center rounded-xl ${index % 2 === 0 ? '' : 'bg-lightpink md:bg-lightpink'}`}
+              flex flex-col justify-center rounded-xl ${index % 2 === 0 ? '' : 'bg-lightpink '}`}
               >
 
             

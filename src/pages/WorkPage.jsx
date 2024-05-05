@@ -30,7 +30,7 @@ function WorkPage() {
     
     <div>
       <Header />
-        <main className='px-5'>
+        <main className='px-5 flex-1'>
           <WorkList works={work}/> 
         </main>
         

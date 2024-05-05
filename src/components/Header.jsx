@@ -18,8 +18,8 @@ function Header() {
   return (
     <>
       {isTablet ? 
-      <div className='nav-header bg-transparent absolute inset-x-0 flex justify-center'>
-         <NavLink to="/"> <img src={logo} alt="Logo" className='logo-nav px-4 lg:p-0'/> </NavLink>
+      <div className='nav-header bg-transparent absolute inset-x-0'>
+         <NavLink to="/"  className="flex items-center"> <img src={logo} alt="Logo" className='logo-nav px-4 lg:p-0'/> </NavLink>
          <Nav /> 
       </div>
        

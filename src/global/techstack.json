@@ -12,15 +12,15 @@
         "type":"dev"
     },
     { 
-        "id":"sass",
-        "title": "SASS / SCSS", 
-        "img": "sass",
-        "type":"dev"
-    },
-    { 
         "id":"javascript",
         "title": "Javascript", 
         "img": "javascript",
+        "type":"dev"
+    },
+    { 
+        "id":"react",
+        "title": "React", 
+        "img": "react",
         "type":"dev"
     },
     { 
@@ -30,9 +30,15 @@
         "type":"dev"
     },
     { 
-        "id":"react",
-        "title": "React", 
-        "img": "react",
+        "id":"sass",
+        "title": "SASS / SCSS", 
+        "img": "sass",
+        "type":"dev"
+    },
+    { 
+        "id":"tailwind",
+        "title": "Tailwind", 
+        "img": "tailwind",
         "type":"dev"
     },
     { 
