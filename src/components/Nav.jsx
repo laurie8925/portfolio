@@ -1,7 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'; 
+import { HashLink, NavHashLink } from 'react-router-hash-link';
+
 import { tabletWidth } from "../global/variables"; 
 import useWindowDimensions from '../components/ScreenSize'
+
+import logo from '../medias/portfolio-logo-finalv2.svg'; 
 
 
 const Nav = () => {
@@ -9,20 +13,20 @@ const Nav = () => {
     const isTablet = dimensions.width > tabletWidth;
 
     return (
-        <div>
+        <nav className='main-nav'>
             {isTablet ? (
                 <ul>
-                    <li><NavLink to="/work">WORK</NavLink></li>
-                    <li><NavLink to="/#about">ABOUT</NavLink></li>
+                     <li><HashLink smooth to="/work">WORK</HashLink></li>
+                    <li><HashLink smooth to="/#about">ABOUT</HashLink></li>
                 </ul>
             ):(
                 <ul>
                     <li><NavLink to="/work">WORK</NavLink></li>
-                    <li><NavLink to="/"> Home </NavLink></li>
-                    <li><NavLink to="/#about">ABOUT</NavLink></li>
+                    <li><NavLink to="/"> <img src={logo} alt="Logo" className='logo-nav lg:w-1/12 '/> </NavLink></li>
+                    <li><HashLink smooth to="/#about">ABOUT</HashLink></li>
                 </ul>
             )}
-        </div>
+        </nav>
     )
 }
 

@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan:ital@0;1&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -29,3 +30,321 @@
 	- Alignments
 
 --------------------------------------------------------------*/
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Base ------------------------------------------------------*/
+/* Typography*/
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", serif;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+
+  @media (min-width: 768px) {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+  }
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+p {
+  text-wrap: pretty;
+  @media (min-width: 768px) {
+    line-height: 1.75;
+  }
+}
+
+.button_slide {
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.button_slide:hover {
+  box-shadow: inset 400px 0 0 0 #ffffff;
+  color: rgb(255 159 159 / var(--tw-bg-opacity));
+  outline-style: solid;
+  outline-color: rgb(255 159 159 / var(--tw-bg-opacity));
+}
+
+.star-icon {
+  fill: #ff9f9f;
+}
+
+.logo {
+  width: 30%;
+  position: absolute;
+  left: 10px;
+
+  @media (min-width: 500px) {
+    width: 25%;
+  }
+
+  @media (min-width: 768px) {
+    width: 20%;
+  }
+
+  @media (min-width: 900px) {
+    width: 15%;
+  }
+}
+
+.intro-nav svg {
+  max-width: 100%;
+  height: 100%;
+}
+
+.intro-nav:hover .star-icon path {
+  fill: black; /* Change to your desired color */
+}
+
+/* header div of nav */
+.nav-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  align-items: center;
+
+  @media (min-width: 1000px) {
+    max-width: 64rem;
+    margin: 0 auto;
+  }
+}
+
+.logo-nav {
+  padding: 0 1rem;
+  margin: 0;
+  width: 35%;
+
+  @media (min-width: 500px) {
+    width: 30%;
+  }
+
+  @media (min-width: 768px) {
+    width: 25%;
+  }
+
+  @media (min-width: 900px) {
+    width: 30%;
+  }
+}
+
+/* classname of nav tag in nav component */
+.main-nav {
+  margin-right: 20px;
+  box-shadow: none;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    /* // margin-top: 10px; */
+    gap: 1.5rem;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  li {
+    padding: 0.75rem 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    &:hover {
+      background-color: #ff9f9f;
+      color: white;
+      border-radius: 1rem;
+    }
+    &:active {
+      background-color: #f77d7d;
+    }
+  }
+
+  /* mobile */
+  @media (max-width: 768px) {
+    z-index: 100;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.1),
+      6px 15px 60px 3px rgba(0, 0, 0, 0.2);
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      width: 100%;
+      gap: 1rem;
+      align-items: center;
+      li {
+        padding: 0;
+        img {
+          height: 75px;
+          max-width: 75px;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+/* HTML: <div class="loader"></div> */
+
+.loading-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000; /* Ensure it appears above other content */
+}
+
+.loader {
+  width: 120px;
+  height: 22px;
+  border-radius: 20px;
+  color: #ff9f9f;
+  border: 2px solid;
+  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -20px -60px;
+  z-index: 1000;
+}
+
+.loader::before {
+  content: "";
+  position: absolute;
+  margin: 2px;
+  inset: 0 100% 0 0;
+  border-radius: inherit;
+  background: currentColor;
+  animation: l6 2s infinite;
+}
+@keyframes l6 {
+  100% {
+    inset: 0;
+  }
+}
+
+.footer-padding {
+  padding-bottom: 85px;
+}
+
+.skill-card {
+  @media (min-width: 500px) {
+    width: 45%;
+  }
+  @media (min-width: 800px) {
+    width: 30%;
+  }
+  @media (min-width: 1200px) {
+    width: 23%;
+  }
+}
+
+.plus svg {
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    transform: rotate(45deg);
+  }
+}
+
+.cross svg {
+  transform: rotate(45deg);
+  transition: 0.2s ease-in-out;
+}
+
+footer {
+  height: 200px;
+
+  @media (min-width: 768px) {
+    height: 100px;
+  }
+}
+
+.footer-icons {
+  stroke: #ff9f9fc5;
+
+  &:active {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease;
+    stroke: #ff9f9f;
+  }
+
+  @media (min-width: 768px) {
+    stroke: #ffffffd1;
+    height: 35px;
+    &:hover {
+      transform: translateY(-5px);
+      transition: transform 0.2s ease;
+      stroke: white;
+    }
+  }
+}
+
+.github-footer:hover {
+  fill: #ff9f9f;
+  @media (min-width: 768px) {
+    fill: white;
+  }
+}
+
+/* Styling for the email icon container */
+.email-icon {
+  position: relative; /* Ensure positioning context for the absolute positioning of the copied message */
+}
+
+/* Styling for the "Copied" message */
+.copied-message {
+  display: block; /* Initially hide the message */
+  position: absolute; /* Position the message relative to its container */
+  top: -45px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f77d7d; /* Background color */
+  padding: 8px 10px; /* Padding around the text */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 15px; /* Font size of the message */
+  color: white; /* Text color */
+  z-index: 1; /* Ensure the message appears above other content */
+}
