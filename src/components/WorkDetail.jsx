@@ -80,7 +80,7 @@ const WorkDetail = ({works}) => {
         {isTablet ? 
         (// tablet & desktop
         <div className="w-full" style={{ backgroundColor: selectedWork.theme }}>
-          <article className='flex flex-col flex-nowrap justify-between gap-1 py-8 pt-36 md:flex-row md:gap-x-5 md:max-w-5xl  md:mx-auto md:my-0'>
+          <article className='flex flex-col flex-nowrap justify-between gap-1 py-8 pt-36 md:flex-row md:gap-x-5 md:max-w-5xl  md:mx-auto md:my-0' data-aos="fade-up">
 
             <div className="relative md:w-1/2">
               <img src={selectedWork.image.hero} alt={`${selectedWork.name} hero image`} className='block h-auto w-full object-contain rounded-md'/>
