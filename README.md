@@ -1,8 +1,16 @@
-# React + Vite
+# Laurie's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio website built with React and Tailwind CSS to showcase my skills as a Front End Web Developer and Designer.
 
-Currently, two official plugins are available:
+## Tools Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Tailwind CSS
+- Git + GitHub
+- Figma
+
+## About Me
+
+- Laurie Yeh, Front End Web Developer and UX Designer
+- Live Site: https://laurieyeh.com
+- Linkedin: https://www.linkedin.com/in/laurieyeh1/
