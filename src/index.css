@@ -328,3 +328,23 @@ footer {
     fill: white;
   }
 }
+
+/* Styling for the email icon container */
+.email-icon {
+  position: relative; /* Ensure positioning context for the absolute positioning of the copied message */
+}
+
+/* Styling for the "Copied" message */
+.copied-message {
+  display: block; /* Initially hide the message */
+  position: absolute; /* Position the message relative to its container */
+  top: -45px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f77d7d; /* Background color */
+  padding: 8px 10px; /* Padding around the text */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 15px; /* Font size of the message */
+  color: white; /* Text color */
+  z-index: 1; /* Ensure the message appears above other content */
+}

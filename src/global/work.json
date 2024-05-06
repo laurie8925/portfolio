@@ -6,20 +6,20 @@
         "detailOverview":"Wowies, a movie database react app, showcases my skills in frontend development. With a clean and intuitive interface, this app offers users a seamless browsing experience through a diverse collection of films. Designed with user convenience in mind, features like 'Add to Favorites' simplify organization and enhance user engagement. Throughout the development process, I focused on creating a user-friendly and responsive application that caters to movie enthusiasts of all levels. This project not only demonstrates my proficiency with React but also highlights my ability to tackle real-world challenges and deliver polished, user-centric solutions.",
         "feature": true, 
         "image":{ 
-            "desktop":"/src/medias/wowies-desktop.png",
-            "mobile":"/src/medias/wowies-mobile.png",
-            "hero":"/src/medias/wowies-hero.png"
+            "desktop":"/medias/wowies-desktop.png",
+            "mobile":"/medias/wowies-mobile.png",
+            "hero":"/medias/wowies-hero.png"
         },  
         "theme": "rgb(254, 249, 195)",
         "tech": ["React", "SaSS", "Rest API", "Adobe XD"], 
         "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
-        "featureImg": "/src/medias/wowies-feature.png",
+        "featureImg": "/medias/wowies-feature.png",
         "featureAlt":"Favourite Movie Feature",
         "featureExplain":"A notable feature of the movie database app is the \"Add to Favorites\" option. This allows users to create a personalized collection of favorite films by clicking a heart icon on the movie detail page. Once added, users can easily access and revisit the favorite movies anytime on their Favorites page. This feature boosts user satisfaction by providing a convenient way to keep track of favorite films, enhancing the overall user experience and becoming a beloved aspect of the app.",
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
-        "designImg": "/src/medias/wowies-design.png",
+        "designImg": "/medias/wowies-design.png",
         "designExplain":"The focus of the homepage is on making movie browsing simple and immediate. It offers direct access to a wide range of movies and categories right from the home page. This design choice ensures quick and easy navigation for users to explore and find content effortlessly.\nAnother feature of the movie database app is its sleek dark purple design. This choice of color scheme makes the app visually appealing and immersive. The intuitive layout improves user engagement, making it simple and enjoyable to explore the extensive film collection.",
         "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gained valuable insights into essential aspects of web development: ", 
         "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage","Prototyping"], 
@@ -33,20 +33,20 @@
         "detailOverview":"I made my portfolio with React app, Tailwind CSS, and a JSON file, my portfolio showcases modern web development techniques. Through React, I've created a dynamic user interface that facilitates my projects. Tailwind CSS ensures a visually striking and responsive design across a range of devices, ensuring a seamless browsing experience. With a JSON file managing the portfolio's data, updating project details is a breeze, eliminating the need for manual coding. This approach not only streamlines content management but also lays the foundation for scalability and adaptability. These technologies collectively showcase my proficiency in crafting robust and user-centric web applications.",
         "feature": true, 
         "image":{ 
-            "desktop":"/src/medias/portfolio-desktop.png",
-            "mobile":"/src/medias/frog.jpg",
-            "hero":"/src/medias/portfolio-hero.png"
+            "desktop":"/medias/portfolio-desktop.png",
+            "mobile":"/medias/frog.jpg",
+            "hero":"/medias/portfolio-hero.png"
         },
         "theme":"rgb(191, 219, 254)",
         "tech": ["React", "Tailwind", "Rest API", "Figma"], 
+        "liveLink":"https://laurieyeh.com",
         "repoLink":"https://github.com/laurie8925/laurie-portfolio", 
-        "liveLink": "https://laurieyeh.com/WOWIES/", 
-        "featureImg": "/src/medias/portfolio-feature.png",
+        "featureImg": "/medias/portfolio-feature.png",
         "featureAlt":"Responsiveness Feature",
         "featureExplain":"One of the portfolio feature is its dynamic handling of data. This means that the portfolio can easily update and display new information or content without manual intervention. For instance, I can add, remove, or update projects or achievements by editing my json file, without needing to modify the website's code. This dynamic capability ensures that my portfolio stays current and reflects my latest accomplishments. It also allows for seamless integration with external data sources or APIs for real-time updates or fetching of information, enhancing the portfolio's flexibility and adaptability for showcasing my skills and experiences",
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
-        "designImg": "/src/medias/portfolio-design.png",
+        "designImg": "/medias/portfolio-design.png",
         "designExplain":"I created this website with a mobile-first design approach. This approach ensures that the portfolio is user-friendly and accessible on mobile devices, prioritizing ease of use for visitors browsing on smartphones and tablets. By placing importance on mobile compatibility, their portfolio provides a seamless experience across different screen sizes, emphasizing accessibility for all users.",
         "takeawayOpening":"While working on my portfolio website, I've learned valuable skills and improved my ability to troubleshoot issues, gaining insights into important aspects of dynamic web development: ", 
         "takeawayList":["Data fetching from local storage", "Tailwind CSS", "Storing and retrieving data from Local Storage" ], 
@@ -59,9 +59,9 @@
         "detailOverview":"Our WordPress website, tailored for an imaginary local matcha cafe, focuses the process design and development when working with client. To minic the process of working with client, we focus on meeting deadlines, and crafted a user-friendly interface that highlights essential details like location, hours, and menu offerings. In additiona, integration of social media feeds so customers can stay informed about the latest news and promotions. This project showcases our expertise in website design and development, emphasizing our dedication to meeting client needs and delivering quality work within specified timelines.",
         "feature": true, 
         "image":{ 
-            "desktop":"/src/medias/froth-desktop.png",
-            "mobile":"/src/medias/frog.jpg", 
-            "hero":"/src/medias/froth-desktop.png"
+            "desktop":"/medias/froth-desktop.png",
+            "mobile":"/medias/frog.jpg", 
+            "hero":"/medias/froth-desktop.png"
         }, 
         "theme":"rgb(236, 252, 207)",
         "tech": ["WordPress", "PHP", "Sass", "Gulp", "PHP", "Figma"], 
@@ -73,12 +73,14 @@
     { 
         "id": "taipei", 
         "name": "Taipei Website", 
+        "repoLink":"https://github.com/laurie8925/taipei-website",
+        "liveLink": "https://laurieyeh.com/country-website/index.html",
         "overview": "A website showcases Taipei's culinary delights and stunning scenery",
         "detailOverview":"My first website, the Taipei Country website, marked an exciting milestone in my journey as a web developer. This project was a culmination of my passion for coding and my desire to showcase the beauty and culture of Taipei to the world. From its inception to its launch, every step of the process was filled with learning opportunities and challenges. Through meticulous design and development, I brought the essence of Taipei to life on the digital canvas, incorporating stunning visuals, engaging content, and user-friendly navigation. As the website went live, I felt a sense of pride and accomplishment, knowing that my creation was now accessible to a global audience, serving as a gateway to the vibrant tapestry of Taipei's sights, sounds, and experiences.", 
         "image":{ 
-            "desktop":"/src/medias/taipei-desktop.png",
-            "mobile":"/src/medias/frog.jpg",
-            "hero":"/src/medias/taipei-hero.png"
+            "desktop":"/medias/taipei-desktop.png",
+            "mobile":"/medias/frog.jpg",
+            "hero":"/medias/taipei-hero.png"
         }, 
         "theme":"rgb(255,243,249)",
         "tech": ["HTML", "CSS", "Javascript"], 

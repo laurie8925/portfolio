@@ -60,7 +60,7 @@ export const Skills = () => {
                     {skills.map((skill, index) => (
                         skill.type === "dev" && (
                             <div key={index} className='flex flex-wrap flex-row items-center w-full h-auto skill-card'>
-                                <img src={`/src/medias/logos/${skill.id}-logo.png`} alt={skill.title} className='w-8 h-8 md:w-16 md:h-16 block object-contain p-2'/>
+                                <img src={`/medias/logos/${skill.id}-logo.png`} alt={skill.title} className='w-8 h-8 md:w-16 md:h-16 block object-contain p-2'/>
                                 <p className='text-sm'>{skill.title}</p>
                             </div>
                         )
@@ -75,7 +75,7 @@ export const Skills = () => {
                     {skills.map((skill, index) => (
                         skill.type === "design" && (
                             <div key={index} className='flex flex-wrap flex-row items-center w-full h-auto skill-card'>
-                                <img src={`/src/medias/logos/${skill.id}-logo.png`} alt={skill.title} className='w-8 h-8 md:w-16 md:h-16 block object-contain p-2'/>
+                                <img src={`/medias/logos/${skill.id}-logo.png`} alt={skill.title} className='w-8 h-8 md:w-16 md:h-16 block object-contain p-2'/>
                                 <p className='text-sm'>{skill.title}</p>
                             </div>
                         )

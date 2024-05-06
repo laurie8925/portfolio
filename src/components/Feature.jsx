@@ -17,39 +17,12 @@ const Feature = () => {
     const[workData, setWorkData] = useState(null); 
     const [isLoaded, setLoadStatus] = useState(false)
 
-    useEffect(() => {
-      let url = "/src/global/work.json";
-      const fetchData = async () => {
-        try {
-          const res = await fetch(url);
-          const workData = await res.json();
-          setWorkData(workData);
-          console.log(workData);
-          if (workData) {
-            setTimeout(() => {
-              setLoadStatus(true);
-            }, 1000);
-            console.log("loaded");
-          } else {
-            console.log("not loaded");
-          }
-        } catch (error) {
-          console.error("Error fetching data:", error);
-        }
-      };
-      fetchData();
-    }, []);
-      
-        // if(setWorkData(workData)){ 
-        //   // setLoadStatus(true);
-        //   console.log("loaded");
-        // }else{ 
-        //   // setLoadStatus(false); 
-        //   console.log("not loaded");
-        // }; 
-        // console.log(isLoaded)
-           
-
+    useEffect(() => { 
+      setTimeout(() => {
+        setWorkData(work);
+        setLoadStatus(true);
+    }, 1000);
+    },[]); 
 
     // function to check feature 
     const filterFeature = () => { 
@@ -66,8 +39,13 @@ const Feature = () => {
     
   return (
     <div className='pb-5'>
-      {isLoaded ? 
-        <section className='feature-section flex flex-col items-center justify-center overflow-hidden' id="features">
+      {!isLoaded ? 
+
+
+        <Loading />
+
+    : 
+    <section className='feature-section flex flex-col items-center justify-center overflow-hidden' id="features">
         <h2 className=' py-3 md:py-4 lg:py-10'>Feature</h2>
         
         <div className='grid gap-4'>
@@ -111,9 +89,6 @@ const Feature = () => {
         </Link>
       
     </section>
-
-    : 
-    <Loading />
     
     }
     </div>

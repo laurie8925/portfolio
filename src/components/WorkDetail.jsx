@@ -7,7 +7,10 @@ import useWindowDimensions from '../components/ScreenSize'
 
 import pinkstar from "../medias/pinkstar.svg"
 import  Loading  from '../components/Loading';
-import SuggestedWork from '../components/SuggestWork';
+
+//animation 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const WorkDetail = ({works}) => {
   const { id } = useParams(); // Get the id from the URL params 
@@ -54,6 +57,13 @@ const WorkDetail = ({works}) => {
 
     const dimensions = useWindowDimensions();
     const isTablet = dimensions.width > tabletWidth;
+
+    //aos 
+    useEffect(() => {
+      AOS.init({ 
+          duration: 2000, 
+      });
+  }, []);
 
   return (
     <div>
@@ -140,7 +150,7 @@ const WorkDetail = ({works}) => {
 
             <div>
               <ul className='flex flex-wrap justify-evenly w-full gap-4 items-center'>
-                {selectedWork.repoLink ? 
+                {selectedWork.liveLink ?  
                   <li><a className='
                   flex flex-row items-center justify-center bg-theme text-white rounded-full
                   py-1 px-3 
@@ -179,7 +189,7 @@ const WorkDetail = ({works}) => {
 
           {/* feature */}
           {selectedWork.featureExplain ? 
-          <div className="work-features pb-3">
+          <div className="work-features pb-3" data-aos="fade-up">
             <h3 className='text-center py-4 '>Feature</h3>
 
             {/* feature image */}
@@ -199,7 +209,7 @@ const WorkDetail = ({works}) => {
         
           {/* design */}
           {selectedWork.designExplain ?
-          <div className="work-design pb-3">
+          <div className="work-design pb-3" data-aos="fade-up">
 
             <h3 className='text-center py-4 '>Design Insight</h3>
             
@@ -214,7 +224,7 @@ const WorkDetail = ({works}) => {
           </div> : "" }
 
           {/* takeaway */}
-          <div className="takeaway">
+          <div className="takeaway" data-aos="fade-up">
             <h3 className='text-center py-4 '>Takeaways</h3>
             <p>{selectedWork.takeawayOpening}</p>
             
@@ -234,7 +244,7 @@ const WorkDetail = ({works}) => {
 
         
        {/* suggested work */}
-        <div className='px-5 md:px-0'>         
+        <div className='px-5 md:px-0' data-aos="fade-up">         
           {!isSuggestWorkLoaded ? (
           // Loading state for suggested work
           <section className='loading'>
