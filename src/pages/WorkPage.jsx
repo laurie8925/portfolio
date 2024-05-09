@@ -26,18 +26,20 @@ function WorkPage() {
     const isTablet = dimensions.width > tabletWidth;
 
   return (
-    <>
+    < div className='work-page'>
     
-    <div>
+    <div >
       <Header />
         <main className='px-5 flex-1'>
           <WorkList works={work}/> 
         </main>
-        
+    </div>
+
+    <div>
       <Footer />
     </div>
     
-    </>
+    </div>
   )
 }
 
