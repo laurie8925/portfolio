@@ -348,3 +348,12 @@ footer {
   color: white; /* Text color */
   z-index: 1; /* Ensure the message appears above other content */
 }
+
+.work-page {
+  @media (min-height: 768px) {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}

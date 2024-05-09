@@ -97,7 +97,7 @@ const WorkDetail = ({works}) => {
 
               <div>
                 <ul className='flex flex-wrap justify-evenly w-full gap-4 items-center'>
-                  {selectedWork.repoLink ? 
+                  {selectedWork.liveLink ? 
                     <li><a className='
                       flex flex-row items-center justify-center bg-theme text-white rounded-full
                       py-1 px-3 
