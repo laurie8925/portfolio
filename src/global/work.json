@@ -39,7 +39,6 @@
         },
         "theme":"rgb(191, 219, 254)",
         "tech": ["React", "Tailwind", "Rest API", "Figma"], 
-        "liveLink":"https://laurieyeh.com",
         "repoLink":"https://github.com/laurie8925/laurie-portfolio", 
         "featureImg": "/medias/portfolio-feature.png",
         "featureAlt":"Responsiveness Feature",
@@ -61,10 +60,12 @@
         "image":{ 
             "desktop":"/medias/froth-desktop.png",
             "mobile":"/medias/frog.jpg", 
-            "hero":"/medias/froth-desktop.png"
+            "hero":"/medias/froth-hero.png"
         }, 
         "theme":"rgb(236, 252, 207)",
         "tech": ["WordPress", "PHP", "Sass", "Gulp", "PHP", "Figma"], 
+        "repoLink":"https://github.com/htpwebdesign/matchacafe-theme", 
+        "liveLink": "https://matchacafe.bcitwebdeveloper.ca/", 
         "designImg": null,
         "takeawayOpening":"While working in a team of four, the Froth Matcha Cafe allowed us to pratcied the following skills: ", 
         "takeawayList":["Customizing a WordPress theme and appropriate selection of plugins","Planning content plan, information architeture and wireframing", "Agile tools and methodologies for project management"], 

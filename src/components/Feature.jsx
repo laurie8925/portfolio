@@ -79,14 +79,16 @@ const Feature = () => {
           ))}
         </div>
 
-        <Link className='flex flex-row items-center justify-center bg-theme text-white text-sm mt-5 md:mt-8 md:mb-2
-        max-w-52 py-2 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide
-        focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' 
-        to='/work'
-        data-aos="fade-right"
-        >
-        View All Work →
-        </Link>
+        <div data-aos="fade-right">
+          <Link className='flex flex-row items-center justify-center bg-theme text-white text-sm mt-5 md:mt-8 md:mb-2
+          max-w-52 py-2 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide
+          focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' 
+          to='/work'
+          >
+          View All Work →
+          </Link>
+        </div>
+        
       
     </section>
     
