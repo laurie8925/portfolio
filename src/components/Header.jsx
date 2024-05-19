@@ -7,7 +7,7 @@ import useWindowDimensions from '../components/ScreenSize'
 
 
 import { NavLink } from 'react-router-dom';
-import logo from '../medias/portfolio-logo-finalv2.svg'; 
+import logo from '../medias/portfolio-logo-nav.svg'; 
 
 
 function Header() {
@@ -18,7 +18,7 @@ function Header() {
   return (
     <>
       {isTablet ? 
-      <div className='nav-header bg-transparent absolute inset-x-0'>
+      <div className='nav-header bg-transparent absolute inset-x-0 z-50'>
          <NavLink to="/"  className="flex items-center"> <img src={logo} alt="Logo" className='logo-nav px-4 lg:p-0'/> </NavLink>
          <Nav /> 
       </div>

@@ -10,6 +10,10 @@ const About = () => {
     useEffect(() => {
         AOS.init({ 
             duration: 1000, 
+            disable: function() {
+                var maxHeight = 700;
+                return window.innerHeight < maxHeight;
+              }
         });
     }, []);
 
