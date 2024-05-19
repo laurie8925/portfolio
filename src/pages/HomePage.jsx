@@ -10,7 +10,7 @@ import Contact from '../components/Contact';
 
 
 
-import logo from '../medias/portfolio-logo-final.svg'; 
+import logo from '../medias/portfolio-logo.svg'; 
 
 
 function HomePage() {

@@ -8,7 +8,8 @@ export default {
     extend: {
       colors:{ 
         theme:'#FF9F9F',
-        lightpink:"#FFEFEF"
+        lightpink:"#FFEFEF", 
+        redpink:"#ff7289",
       }
     },
   },

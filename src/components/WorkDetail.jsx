@@ -79,7 +79,7 @@ const WorkDetail = ({works}) => {
   
         {isTablet ? 
         (// tablet & desktop
-        <div className="w-full" style={{ backgroundColor: selectedWork.theme }}>
+        <div className="w-full z-0" style={{ backgroundColor: selectedWork.theme }}>
           <article className='flex flex-col flex-nowrap justify-between gap-1 py-8 pt-36 md:flex-row md:gap-x-5 md:max-w-5xl  md:mx-auto md:my-0' data-aos="fade-up">
 
             <div className="relative md:w-1/2">
@@ -185,7 +185,7 @@ const WorkDetail = ({works}) => {
         <div className='md:max-w-5xl md:mx-auto md:my-0 pt-8 px-5'>
 
           {/* overview */}
-          <p>{selectedWork.detailOverview}</p>
+          <p data-aos="fade-up">{selectedWork.detailOverview}</p>
 
           {/* feature */}
           {selectedWork.featureExplain ? 
