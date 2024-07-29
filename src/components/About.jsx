@@ -38,7 +38,7 @@ const About = () => {
                 <br/>
 
                 <p data-aos="fade-up"  >
-                    I enjoy the idea of being capable of turning user-friendly webpages and aesthetic designs into reality. I am fascinated by the interaction between technology and creativity. The process of bringing concepts and ideas to life, shaping them into interactive and visually appealing websites, motivates me to continue doing what I love.
+                    I enjoy turning user-friendly webpages and aesthetic designs into reality, and I am fascinated by the interaction between technology and creativity The process of bringing concepts and ideas to life, shaping them into interactive and visually appealing websites, motivates me to continue doing what I love.
                 </p>
 
                 <br/>
