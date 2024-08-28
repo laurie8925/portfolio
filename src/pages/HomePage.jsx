@@ -7,6 +7,7 @@ import Intro from '../components/Intro';
 import Feature from '../components/Feature';
 import About from "../components/About"; 
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 
 
@@ -51,6 +52,7 @@ function HomePage() {
         <Contact />
 
       </main>
+      <Footer />
     </body>
    
   )
