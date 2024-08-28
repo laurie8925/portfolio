@@ -21,6 +21,9 @@ export const Skills = () => {
         });
     }, []);
 
+    console.log(skills);
+    console.log(`/medias/logos/${skills[3].id}-logo.png`);
+
   return (
     <div className='pt-10'>
     <div data-aos="fade-up" >

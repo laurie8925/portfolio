@@ -18,6 +18,12 @@
         "type":"dev"
     },
     { 
+        "id":"typescript",
+        "title": "Typescript", 
+        "img": "typescript",
+        "type":"dev"
+    },
+    { 
         "id":"react",
         "title": "React", 
         "img": "react",
@@ -57,6 +63,12 @@
         "id":"wordpress",
         "title": "WordPress", 
         "img": "wordpress",
+        "type":"dev"
+    },
+    { 
+        "id":"woocommerce",
+        "title": "Woocommerce", 
+        "img": "woocommerce",
         "type":"dev"
     },
    
@@ -113,11 +125,5 @@
         "title": "Xd", 
         "img": "xd",
         "type":"design"
-    },
-    { 
-        "id":"canva",
-        "title": "Canva", 
-        "img": "canva",
-        "type":"design"
-    }   
+    }
 ]

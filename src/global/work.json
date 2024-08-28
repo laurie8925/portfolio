@@ -16,11 +16,11 @@
         "liveLink": "https://laurieyeh.com/WOWIES/", 
         "featureImg": "/medias/wowies-feature.png",
         "featureAlt":"Favourite Movie Feature",
-        "featureExplain":"A notable feature of the movie database app is the \"Add to Favorites\" option. This allows users to create a personalized collection of favorite films by clicking a heart icon on the movie detail page. Once added, users can easily access and revisit the favorite movies anytime on their Favorites page. This feature boosts user satisfaction by providing a convenient way to keep track of favorite films, enhancing the overall user experience and becoming a beloved aspect of the app.",
+        "featureExplain":"A notable feature of the movie database app is the \"Add to Favorites\" feature. Users can create a personalized collection of favorite films by clicking a heart icon on the movie detail page. Once added, users can easily access and revisit their favorite movies anytime on their Favorites page. This feature provides a convenient way to keep track of favorite films.",
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
         "designImg": "/medias/wowies-design.png",
-        "designExplain":"The focus of the homepage is on making movie browsing simple and immediate. It offers direct access to a wide range of movies and categories right from the home page. This design choice ensures quick and easy navigation for users to explore and find content effortlessly.\nAnother feature of the movie database app is its sleek dark purple design. This choice of color scheme makes the app visually appealing and immersive. The intuitive layout improves user engagement, making it simple and enjoyable to explore the extensive film collection.",
+        "designExplain":"The homepage focuses on making movie browsing simple and immediate, offering direct access to a wide range of movies and categories right from the start. This design choice ensures quick and easy navigation.\nAnother design choice of the movie database app is its sleek dark purple theme, which is easy on the eye and enhances the app's visual appeal and immersive experience. The intuitive layout also makes it simple and enjoyable to explore the extensive film collection.",
         "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gained valuable insights into essential aspects of web development: ", 
         "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage","Prototyping"], 
         "takeawayEnding":"Such as fetching data from REST APIs, using React Router for smooth navigation, and storing and retrieving data from Local Storage. These takeaways have provided me with the skills needed to create dynamic and user-centric movie browsing experiences."
@@ -31,7 +31,6 @@
         "name": "Portfolio Site", 
         "overview": "My portfolio website, created with React and Tailwind CSS to showcase who I am and my skills ",
         "detailOverview":"I made my portfolio with React app, Tailwind CSS, and a JSON file, my portfolio showcases modern web development techniques. Through React, I've created a dynamic user interface that facilitates my projects. Tailwind CSS ensures a visually striking and responsive design across a range of devices, ensuring a seamless browsing experience. With a JSON file managing the portfolio's data, updating project details is a breeze, eliminating the need for manual coding. This approach not only streamlines content management but also lays the foundation for scalability and adaptability. These technologies collectively showcase my proficiency in crafting robust and user-centric web applications.",
-        "feature": true, 
         "image":{ 
             "desktop":"/medias/portfolio-desktop.png",
             "mobile":"/medias/frog.jpg",
