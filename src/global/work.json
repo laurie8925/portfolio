@@ -3,7 +3,7 @@
         "id": "cheese", 
         "name": "Cheese Purrsuit", 
         "repoLink":"https://github.com/laurie8925/among_us_game",
-        "overview": "Typescript fast-paced cat catching mouse game",
+        "overview": "TypeScript-powered, fast-paced cat-and-mouse game",
         "detailOverview":"In this fast-paced game, you transform into a cat trying to catch these cheese theieves running across the screen. Your goal is to catch as many mouse as the difficulty increase with the increase of level. With adjustable sound effects and an easy-to-access pause feature, the game keeps you in control and the action non-stop. Get ready to test your reflexes and expereicen the Cheese Purrsuit!", 
         "feature": true, 
         "image":{ 
@@ -13,9 +13,9 @@
         }, 
         "theme":"rgb(255,211,172)",
         "tech": ["Typescript", "HTML", "CSS"], 
-        "takeawayOpening":"As my first website I developed, these are some basic skills that learnt: ", 
-        "takeawayList":["Technical Proficiency", "Project Management Skills", "Problem-Solving and Troubleshooting" ], 
-        "takeawayEnding":"Developing the Taipei Country website was a significant learning experience for me, improving both my technical skills and project management abilities. Through this project, I gained valuable insights into problem-solving and troubleshooting, which have made me a more resilient and adaptable developer."
+        "takeawayOpening":"To enhance my scripting understanding, I decided to chanllenge myself to code an interactive game with a new language: ", 
+        "takeawayList":["Type Safety", "Use of Interface and Types","Game Logic", "Uniform Audio Feature and Controls" ], 
+        "takeawayEnding":"This project was challenging, but it was an amazing learning journey. There were many days when I was banging my head against the computer because I couldn't figure out why my game wasn't working the way I wanted, only to discover that different logic elements were contradicting each other. This project helped me understand how logic interacts within a system. It also allowed me to appreciate the advantages of using TypeScript for safe typing and error prevention."
     },
     { 
         "id": "wowies", 
@@ -54,7 +54,7 @@
             "mobile":"/medias/frog.jpg",
             "hero":"/medias/portfolio-hero.png"
         },
-        "theme":"#ffff",
+        "theme":"rgb(191 219 254)",
         "tech": ["React", "Tailwind", "Rest API", "Figma"], 
         "repoLink":"https://github.com/laurie8925/laurie-portfolio", 
         "featureImg": "/medias/portfolio-feature.png",
@@ -98,7 +98,7 @@
             "mobile":"/medias/frog.jpg",
             "hero":"/medias/taipei-hero.png"
         }, 
-        "theme":"#ffff",
+        "theme":"rgb(255,243,249)",
         "tech": ["HTML", "CSS", "Javascript"], 
         "takeawayOpening":"As my first website I developed, these are some basic skills that learnt: ", 
         "takeawayList":["Technical Proficiency", "Project Management Skills", "Problem-Solving and Troubleshooting" ], 

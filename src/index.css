@@ -138,6 +138,7 @@ p {
   width: 100%;
   height: auto;
   align-items: center;
+  background-color: white;
 
   @media (min-width: 1000px) {
     max-width: 64rem;
