@@ -1,9 +1,27 @@
 [
     { 
+        "id": "cheese", 
+        "name": "Cheese Purrsuit", 
+        "repoLink":"https://github.com/laurie8925/among_us_game",
+        "overview": "Typescript fast-paced cat catching mouse game",
+        "detailOverview":"In this fast-paced game, you transform into a cat trying to catch these cheese theieves running across the screen. Your goal is to catch as many mouse as the difficulty increase with the increase of level. With adjustable sound effects and an easy-to-access pause feature, the game keeps you in control and the action non-stop. Get ready to test your reflexes and expereicen the Cheese Purrsuit!", 
+        "feature": true, 
+        "image":{ 
+            "desktop":"/medias/cheese-desktop.png",
+            "mobile":"/medias/frog.jpg",
+            "hero":"/medias/cheese-desktop.png"
+        }, 
+        "theme":"rgb(255,211,172)",
+        "tech": ["Typescript", "HTML", "CSS"], 
+        "takeawayOpening":"As my first website I developed, these are some basic skills that learnt: ", 
+        "takeawayList":["Technical Proficiency", "Project Management Skills", "Problem-Solving and Troubleshooting" ], 
+        "takeawayEnding":"Developing the Taipei Country website was a significant learning experience for me, improving both my technical skills and project management abilities. Through this project, I gained valuable insights into problem-solving and troubleshooting, which have made me a more resilient and adaptable developer."
+    },
+    { 
         "id": "wowies", 
         "name": "WOWIES", 
         "overview": "A React App for browsing the latest movies and building your own favourite lists. ", 
-        "detailOverview":"Wowies, a movie database react app, showcases my skills in frontend development. With a clean and intuitive interface, this app offers users a seamless browsing experience through a diverse collection of films. Designed with user convenience in mind, features like 'Add to Favorites' simplify organization and enhance user engagement. Throughout the development process, I focused on creating a user-friendly and responsive application that caters to movie enthusiasts of all levels. This project not only demonstrates my proficiency with React but also highlights my ability to tackle real-world challenges and deliver polished, user-centric solutions.",
+        "detailOverview":"Wowies, a movie database React app, showcases my skills in frontend development. With an intuitive interface, this app offers users an engaging browsing experience through a diverse collection of films. Throughout the development process, I focused on creating a user-friendly and responsive application that caters to movie enthusiasts of all levels. This project demonstrates my proficiency with React and highlights my ability to tackle real-world challenges and deliver polished, user-centric solutions.",
         "feature": true, 
         "image":{ 
             "desktop":"/medias/wowies-desktop.png",
@@ -20,7 +38,7 @@
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
         "designImg": "/medias/wowies-design.png",
-        "designExplain":"The homepage focuses on making movie browsing simple and immediate, offering direct access to a wide range of movies and categories right from the start. This design choice ensures quick and easy navigation.\nAnother design choice of the movie database app is its sleek dark purple theme, which is easy on the eye and enhances the app's visual appeal and immersive experience. The intuitive layout also makes it simple and enjoyable to explore the extensive film collection.",
+        "designExplain":"The homepage focuses on making movie browsing simple and immediate, offering direct access to a wide range of movies and categories right from the start.\nAnother design choice of the movie database app is its  dark purple theme, which is easy on the eye and enhances the app's visual appeal and immersive experience.",
         "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gained valuable insights into essential aspects of web development: ", 
         "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage","Prototyping"], 
         "takeawayEnding":"Such as fetching data from REST APIs, using React Router for smooth navigation, and storing and retrieving data from Local Storage. These takeaways have provided me with the skills needed to create dynamic and user-centric movie browsing experiences."
@@ -30,32 +48,30 @@
         "id": "portfolio", 
         "name": "Portfolio Site", 
         "overview": "My portfolio website, created with React and Tailwind CSS to showcase who I am and my skills ",
-        "detailOverview":"I made my portfolio with React app, Tailwind CSS, and a JSON file, my portfolio showcases modern web development techniques. Through React, I've created a dynamic user interface that facilitates my projects. Tailwind CSS ensures a visually striking and responsive design across a range of devices, ensuring a seamless browsing experience. With a JSON file managing the portfolio's data, updating project details is a breeze, eliminating the need for manual coding. This approach not only streamlines content management but also lays the foundation for scalability and adaptability. These technologies collectively showcase my proficiency in crafting robust and user-centric web applications.",
+        "detailOverview":"I created my portfolio using React and Tailwind CSS, showcasing modern web development techniques. Through React, I've developed a dynamic user interface that effectively displays my projects. Tailwind CSS ensures a responsive design across various devices, providing a smooth browsing experience. With a JSON file managing the portfolio's data, updating project details is effortless, eliminating the need for manual coding. This approach streamlines content management and lays the foundation for scalability and adaptability. These technologies collectively demonstrate my proficiency in crafting robust and user-centric web applications.",
         "image":{ 
             "desktop":"/medias/portfolio-desktop.png",
             "mobile":"/medias/frog.jpg",
             "hero":"/medias/portfolio-hero.png"
         },
-        "theme":"rgb(191, 219, 254)",
+        "theme":"#ffff",
         "tech": ["React", "Tailwind", "Rest API", "Figma"], 
         "repoLink":"https://github.com/laurie8925/laurie-portfolio", 
         "featureImg": "/medias/portfolio-feature.png",
         "featureAlt":"Responsiveness Feature",
-        "featureExplain":"One of the portfolio feature is its dynamic handling of data. This means that the portfolio can easily update and display new information or content without manual intervention. For instance, I can add, remove, or update projects or achievements by editing my json file, without needing to modify the website's code. This dynamic capability ensures that my portfolio stays current and reflects my latest accomplishments. It also allows for seamless integration with external data sources or APIs for real-time updates or fetching of information, enhancing the portfolio's flexibility and adaptability for showcasing my skills and experiences",
+        "featureExplain":"One of the portfolio feature is its dynamic handling of data. This means that the portfolio can easily update and display new information or content without manual intervention. For instance, I can add, remove, or update projects or achievements by editing my json file, without needing to modify the website's code. This dynamic capability ensures that my portfolio stays current and reflects my latest accomplishments.",
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
-        "designImg": "/medias/portfolio-design.png",
-        "designExplain":"I created this website with a mobile-first design approach. This approach ensures that the portfolio is user-friendly and accessible on mobile devices, prioritizing ease of use for visitors browsing on smartphones and tablets. By placing importance on mobile compatibility, their portfolio provides a seamless experience across different screen sizes, emphasizing accessibility for all users.",
+        "designExplain":"I created this website with a mobile-first design approach. This approach ensures that the portfolio is user-friendly and accessible on mobile devices, prioritizing visitors browsing on smartphones and tablets first. By placing importance on mobile compatibility, their portfolio provides a seamless experience across different screen sizes, emphasizing accessibility for all users.",
         "takeawayOpening":"While working on my portfolio website, I've learned valuable skills and improved my ability to troubleshoot issues, gaining insights into important aspects of dynamic web development: ", 
         "takeawayList":["Data fetching from local storage", "Tailwind CSS", "Storing and retrieving data from Local Storage" ], 
-        "takeawayEnding":"I've gained new experience in skills such as data fetching and proficiently storing and retrieving data from local storage (JSON files), and using Tailwind CSS for efficient styling. These abilities enable me to develop dynamic and responsive web applications with streamlined data management, enhancing user experience and functionality. As I continue to refine and expand upon these skills, I am ready to tackle new challenges and deliver impactful web solutions."
+        "takeawayEnding":"I've gained new experience in skills such as data fetching and proficiently storing and retrieving data from local storage (JSON files), and using Tailwind CSS for efficient styling. \nThese abilities enable me to develop dynamic and responsive web applications with streamlined data management, enhancing user experience and functionality. As I continue to refine and expand upon these skills, I am ready to tackle new challenges and deliver impactful web solutions."
     }, 
     { 
         "id": "froth", 
         "name": "Froth Matcha Cafe", 
         "overview": "WordPress website, featuring a curated selection of matcha drinks and pastries",
-        "detailOverview":"Our WordPress website, tailored for an imaginary local matcha cafe, focuses the process design and development when working with client. To minic the process of working with client, we focus on meeting deadlines, and crafted a user-friendly interface that highlights essential details like location, hours, and menu offerings. In additiona, integration of social media feeds so customers can stay informed about the latest news and promotions. This project showcases our expertise in website design and development, emphasizing our dedication to meeting client needs and delivering quality work within specified timelines.",
-        "feature": true, 
+        "detailOverview":"Our WordPress website, tailored for a mock local matcha cafe, focuses on the design and development process when working with a client. To mimic client collaboration, we emphasized meeting deadlines and crafted a user-friendly interface that highlights essential details such as location, hours, and menu offerings. Additionally, we integrated social media feeds so customers can stay informed about the latest news and promotions. This project showcases our expertise in website design and development, emphasizing our dedication to meeting client needs and delivering quality work within specified timelines.",
         "image":{ 
             "desktop":"/medias/froth-desktop.png",
             "mobile":"/medias/frog.jpg", 
@@ -76,13 +92,13 @@
         "repoLink":"https://github.com/laurie8925/taipei-website",
         "liveLink": "https://laurieyeh.com/country-website/index.html",
         "overview": "A website showcases Taipei's culinary delights and stunning scenery",
-        "detailOverview":"My first website, the Taipei Country website, marked an exciting milestone in my journey as a web developer. This project was a culmination of my passion for coding and my desire to showcase the beauty and culture of Taipei to the world. From its inception to its launch, every step of the process was filled with learning opportunities and challenges. Through meticulous design and development, I brought the essence of Taipei to life on the digital canvas, incorporating stunning visuals, engaging content, and user-friendly navigation. As the website went live, I felt a sense of pride and accomplishment, knowing that my creation was now accessible to a global audience, serving as a gateway to the vibrant tapestry of Taipei's sights, sounds, and experiences.", 
+        "detailOverview":"My first website, the Taipei Country website, marked an exciting milestone in my journey as a web developer. This project was the result of my passion for coding and my desire to showcase the beauty and culture of Taipei to the world. Every step of the process was filled with learning opportunities and challenges. As the website went live, I felt a sense of pride and accomplishment, knowing that my creation was now accessible to a global audience, serving as a gateway to Taipei's sights, foods, and experiences.", 
         "image":{ 
             "desktop":"/medias/taipei-desktop.png",
             "mobile":"/medias/frog.jpg",
             "hero":"/medias/taipei-hero.png"
         }, 
-        "theme":"rgb(255,243,249)",
+        "theme":"#ffff",
         "tech": ["HTML", "CSS", "Javascript"], 
         "takeawayOpening":"As my first website I developed, these are some basic skills that learnt: ", 
         "takeawayList":["Technical Proficiency", "Project Management Skills", "Problem-Solving and Troubleshooting" ], 

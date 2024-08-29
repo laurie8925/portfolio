@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import  Loading  from '../components/Loading';
+import  Header  from '../components/Header';
 
 
 
@@ -52,8 +53,8 @@ const Feature = () => {
           {filterFeature().map((obj, index) => (
             <div key={obj.id}>
               <InView as="div" onChange={(inView, entry) => {}}>
+
                 {InView ? (
-                 
                   <article  data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
                     
                     className={`single-project flex flex-col flex-nowrap justify-between gap-1 py-3 px-4 max-w-sm md:flex-row md:gap-x-5 md:max-w-5xl ${index % 2 === 0 ? '' : 'rounded-xl bg-lightpink'}`}
@@ -62,6 +63,7 @@ const Feature = () => {
                     
                     <div className="relative md:w-1/2 md:p-2">
                       <img src={obj.image.desktop} alt={`${obj.name} desktop`} className='block h-auto w-full object-contain rounded-md'/>
+
                     </div>
 
                     <div className='md:w-1/2 flex flex-col justify-evenly gap-y-2'>

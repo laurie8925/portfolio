@@ -35,7 +35,7 @@ const WorkList = ({works}) => {
   return (
     <div className='w-full overflow-hidden pb-10'>
       {/* 5-> 20px, 1.25rem  */}
-    <h2 className='text-center p-10 md:pt-24 md:p-10'>Work</h2>
+    <h2 className='text-center p-10 md:pt-40 md:p-10'>Work</h2>
 
     {!isLoaded ? (
       <section className='loading'>
