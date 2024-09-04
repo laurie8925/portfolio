@@ -2,8 +2,7 @@
     { 
         "id": "cheese", 
         "name": "Cheese Purrsuit", 
-        "repoLink":"https://github.com/laurie8925/among_us_game",
-        "overview": "TypeScript-powered, fast-paced cat-and-mouse game",
+        "overview": "Coming Soon: a fast-paced cat-and-mouse Typescript game",
         "detailOverview":"In this fast-paced game, you transform into a cat trying to catch these cheese theieves running across the screen. Your goal is to catch as many mouse as the difficulty increase with the increase of level. With adjustable sound effects and an easy-to-access pause feature, the game keeps you in control and the action non-stop. Get ready to test your reflexes and expereicen the Cheese Purrsuit!", 
         "feature": true, 
         "image":{ 
@@ -26,18 +25,18 @@
         "image":{ 
             "desktop":"/medias/wowies-desktop.png",
             "mobile":"/medias/wowies-mobile.png",
-            "hero":"/medias/wowies-hero.png"
+            "hero":"/medias/wowies-desktop.png"
         },  
-        "theme": "rgb(254, 249, 195)",
+        "theme": "rgb(205 188 213)",
         "tech": ["React", "SaSS", "Rest API", "Adobe XD"], 
         "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
-        "featureImg": "/medias/wowies-feature.png",
+        "featureImg": "/medias/wowies-single.png",
         "featureAlt":"Favourite Movie Feature",
         "featureExplain":"A notable feature of the movie database app is the \"Add to Favorites\" feature. Users can create a personalized collection of favorite films by clicking a heart icon on the movie detail page. Once added, users can easily access and revisit their favorite movies anytime on their Favorites page. This feature provides a convenient way to keep track of favorite films.",
         "codeSnippet": null, 
         "codeSnippetAlt": null, 
-        "designImg": "/medias/wowies-design.png",
+        "designImg": "/medias/wowies-homepage.png",
         "designExplain":"The homepage focuses on making movie browsing simple and immediate, offering direct access to a wide range of movies and categories right from the start.\nAnother design choice of the movie database app is its  dark purple theme, which is easy on the eye and enhances the app's visual appeal and immersive experience.",
         "takeawayOpening":"From my experience working on the WOWIES movie database project, I've gained valuable insights into essential aspects of web development: ", 
         "takeawayList":["Rest API data fetching", "React Router", "Storing and retrieving data from Local Storage","Prototyping"], 
@@ -57,7 +56,6 @@
         "theme":"rgb(191 219 254)",
         "tech": ["React", "Tailwind", "Rest API", "Figma"], 
         "repoLink":"https://github.com/laurie8925/laurie-portfolio", 
-        "featureImg": "/medias/portfolio-feature.png",
         "featureAlt":"Responsiveness Feature",
         "featureExplain":"One of the portfolio feature is its dynamic handling of data. This means that the portfolio can easily update and display new information or content without manual intervention. For instance, I can add, remove, or update projects or achievements by editing my json file, without needing to modify the website's code. This dynamic capability ensures that my portfolio stays current and reflects my latest accomplishments.",
         "codeSnippet": null, 
@@ -77,7 +75,7 @@
             "mobile":"/medias/frog.jpg", 
             "hero":"/medias/froth-hero.png"
         }, 
-        "theme":"rgb(236, 252, 207)",
+        "theme":"rgb(170 191 131)",
         "tech": ["WordPress", "PHP", "Sass", "Gulp", "PHP", "Figma"], 
         "repoLink":"https://github.com/htpwebdesign/matchacafe-theme", 
         "liveLink": "https://matchacafe.bcitwebdeveloper.ca/", 
@@ -96,9 +94,9 @@
         "image":{ 
             "desktop":"/medias/taipei-desktop.png",
             "mobile":"/medias/frog.jpg",
-            "hero":"/medias/taipei-hero.png"
+            "hero":"/medias/taipei-desktop.png"
         }, 
-        "theme":"rgb(255,243,249)",
+        "theme":"rgb(251 195 195)",
         "tech": ["HTML", "CSS", "Javascript"], 
         "takeawayOpening":"As my first website I developed, these are some basic skills that learnt: ", 
         "takeawayList":["Technical Proficiency", "Project Management Skills", "Problem-Solving and Troubleshooting" ], 

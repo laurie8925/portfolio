@@ -48,6 +48,12 @@
         "type":"dev"
     },
     { 
+        "id":"python",
+        "title": "Python", 
+        "img": "python",
+        "type":"dev"
+    },
+    { 
         "id":"php",
         "title": "PHP", 
         "img": "php",
