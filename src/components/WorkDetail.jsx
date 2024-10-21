@@ -103,7 +103,7 @@ const WorkDetail = ({works}) => {
                       py-1 px-3 
                       max-w-32  mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg 
                       button_slide
-                      focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' href={selectedWork.liveLink}>
+                      focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' href={selectedWork.liveLink} target="_blank">
                       Live Site
                     </a></li>
                     : 
@@ -116,7 +116,7 @@ const WorkDetail = ({works}) => {
                     py-1 px-3 
                     max-w-32  mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg 
                     button_slide
-                    focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' href={selectedWork.repoLink}>Github
+                    focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' href={selectedWork.repoLink} target="_blank">Github
                     </a></li>
                     : 
                     ""
@@ -156,7 +156,7 @@ const WorkDetail = ({works}) => {
                   py-1 px-3 
                   max-w-32  mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg 
                   button_slide
-                  focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' href={selectedWork.liveLink}>Live Site</a></li>
+                  focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' href={selectedWork.liveLink} target="_blank">Live Site</a></li>
                   : 
                   ""
                 } 
@@ -167,7 +167,7 @@ const WorkDetail = ({works}) => {
                   py-1 px-3 
                   max-w-32  mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg 
                   button_slide
-                  focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' href={selectedWork.repoLink}>Github</a></li>
+                  focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme' href={selectedWork.repoLink} target="_blank">Github</a></li>
                   : 
                   ""
                 }
