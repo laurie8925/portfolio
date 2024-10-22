@@ -31,7 +31,7 @@
         },  
         "theme": "rgb(205 188 213)",
         "tech": ["React", "SaSS", "Rest API", "Adobe XD"], 
-        "repoLink":"https://github.com/Nikkobondoc/Movie-Database-Wowies", 
+        "repoLink":"https://github.com/laurie8925/wowies", 
         "liveLink": "https://laurieyeh.com/WOWIES/", 
         "featureImg": "/medias/wowies-single.png",
         "featureAlt":"Favourite Movie Feature",
