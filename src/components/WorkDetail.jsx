@@ -185,7 +185,10 @@ const WorkDetail = ({works}) => {
         <div className='md:max-w-5xl md:mx-auto md:my-0 pt-8 px-5'>
 
           {/* overview */}
-          <p data-aos="fade-up">{selectedWork.detailOverview}</p>
+          {selectedWork.detailOverview && selectedWork.detailOverview.split('\n').map((paragraph, index) => (
+              <p key={index} data-aos="fade-up">{paragraph}</p>
+            ))}
+          {/* <p data-aos="fade-up">{selectedWork.detailOverview}</p> */}
 
           {/* feature */}
           {selectedWork.featureExplain ? 

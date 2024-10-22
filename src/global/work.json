@@ -3,7 +3,7 @@
         "id": "cheese", 
         "name": "Cheese Purrsuit", 
         "overview": "Fast-paced cat catching mouse Typescript game",
-        "detailOverview":"In this fast-paced Typescript game, you transform into a cat trying to catch these cheese theieves running across the screen. Your goal is to catch as many mouse as the difficulty increase with the increase of level. With adjustable sound effects and an easy-to-access pause feature, the game keeps you in control and the action non-stop. Get ready to test your reflexes and expereicen the Cheese Purrsuit! \nCurrently only available on Desktop. Mobile and Tablet version coming out soon!", 
+        "detailOverview":"Currently only available on Desktop. Mobile and Tablet versions coming out soon! \nIn this fast-paced Typescript game, you transform into a cat trying to catch these cheese theieves running across the screen. Your goal is to catch as many mouse as the difficulty increase with the increase of level. With adjustable sound effects and an easy-to-access pause feature, the game keeps you in control and the action non-stop. Get ready to test your reflexes and expereicen the Cheese Purrsuit! ", 
         "feature": true, 
         "image":{ 
             "desktop":"/medias/cheese-desktop.png",
