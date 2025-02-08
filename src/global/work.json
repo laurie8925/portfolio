@@ -32,7 +32,7 @@
         "theme": "rgb(205 188 213)",
         "tech": ["React", "SaSS", "Rest API", "Adobe XD"], 
         "repoLink":"https://github.com/laurie8925/wowies", 
-        "liveLink": "https://laurieyeh.com/WOWIES/", 
+        "liveLink": "https://wowies.laurieyeh.com", 
         "featureImg": "/medias/wowies-single.png",
         "featureAlt":"Favourite Movie Feature",
         "featureExplain":"A notable feature of the movie database app is the \"Add to Favorites\" feature. Users can create a personalized collection of favorite films by clicking a heart icon on the movie detail page. Once added, users can easily access and revisit their favorite movies anytime on their Favorites page. This feature provides a convenient way to keep track of favorite films.",
