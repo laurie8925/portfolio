@@ -13,8 +13,13 @@
         "theme":"rgb(255,211,172)",
         "tech": ["Typescript", "HTML", "CSS"], 
         "repoLink":"https://github.com/laurie8925/among_us_game", 
+<<<<<<< HEAD
         "liveLink": "https://laurieyeh.com/cheese-purrsuit/",
         "takeawayOpening":"To improve my understanding for scripting, I decided to chanllenge myself to code an interactive game with a new language: ", 
+=======
+        "liveLink": "https://pursuit.laurieyeh.com",
+        "takeawayOpening":"To enhance my scripting understanding, I decided to chanllenge myself to code an interactive game with a new language: ", 
+>>>>>>> 20f576fb321cf3f8402d6845e8005d5f781654db
         "takeawayList":["Type Safety", "Use of Interface and Types","Game Logic", "Uniform Audio Feature and Controls" ], 
         "takeawayEnding":"This project was challenging, but it was an amazing learning journey. There were many days when I was banging my head against the computer because I couldn't figure out why my game wasn't working the way I wanted, only to discover that different logic elements were contradicting each other. This project helped me understand how logic interacts within a system. It also allowed me to appreciate the advantages of using TypeScript for safe typing and error prevention."
     },
@@ -32,7 +37,7 @@
         "theme": "rgb(205 188 213)",
         "tech": ["React", "SaSS", "Rest API", "Adobe XD"], 
         "repoLink":"https://github.com/laurie8925/wowies", 
-        "liveLink": "https://laurieyeh.com/WOWIES/", 
+        "liveLink": "https://wowies.laurieyeh.com", 
         "featureImg": "/medias/wowies-single.png",
         "featureAlt":"Favourite Movie Feature",
         "featureExplain":"A notable feature of the movie database app is the \"Add to Favorites\" feature. Users can create a personalized collection of favorite films by clicking a heart icon on the movie detail page. Once added, users can easily access and revisit their favorite movies anytime on their Favorites page. This feature provides a convenient way to keep track of favorite films.",
@@ -90,7 +95,7 @@
         "id": "taipei", 
         "name": "Taipei Website", 
         "repoLink":"https://github.com/laurie8925/taipei-website",
-        "liveLink": "https://laurieyeh.com/country-website/index.html",
+        "liveLink": "https://taipei.laurieyeh.com",
         "overview": "A website showcases Taipei's culinary delights and stunning scenery",
         "detailOverview":"My first website, the Taipei Country website, marked an exciting milestone in my journey as a web developer. This project was the result of my passion for coding and my desire to showcase the beauty and culture of Taipei to the world. Every step of the process was filled with learning opportunities and challenges. As the website went live, I felt a sense of pride and accomplishment, knowing that my creation was now accessible to a global audience, serving as a gateway to Taipei's sights, foods, and experiences.", 
         "image":{ 
