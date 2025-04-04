@@ -13,13 +13,8 @@
         "theme":"rgb(255,211,172)",
         "tech": ["Typescript", "HTML", "CSS"], 
         "repoLink":"https://github.com/laurie8925/among_us_game", 
-<<<<<<< HEAD
         "liveLink": "https://laurieyeh.com/cheese-purrsuit/",
         "takeawayOpening":"To improve my understanding for scripting, I decided to chanllenge myself to code an interactive game with a new language: ", 
-=======
-        "liveLink": "https://pursuit.laurieyeh.com",
-        "takeawayOpening":"To enhance my scripting understanding, I decided to chanllenge myself to code an interactive game with a new language: ", 
->>>>>>> 20f576fb321cf3f8402d6845e8005d5f781654db
         "takeawayList":["Type Safety", "Use of Interface and Types","Game Logic", "Uniform Audio Feature and Controls" ], 
         "takeawayEnding":"This project was challenging, but it was an amazing learning journey. There were many days when I was banging my head against the computer because I couldn't figure out why my game wasn't working the way I wanted, only to discover that different logic elements were contradicting each other. This project helped me understand how logic interacts within a system. It also allowed me to appreciate the advantages of using TypeScript for safe typing and error prevention."
     },
