@@ -6,13 +6,15 @@
         "detailOverview":"I wanted to make an app that would help me and others improve our wellness by changing our persepective of life by documenting our days with photos. Many of us are so focused on getting things done in our lives, constantly stressed, that we end up feeling burned out. \nThis app allows users to spend less than 5 minutes a day actively reflecting on the positive aspects of their day. It serves as a tool to help users build a good habit of thinking positively about their lives, even in small ways. Over time, it encourages us to appreciate the little things and realize that life isn’t as bad as we might thought it to be.", 
         "feature": true, 
         "image":{ 
-            "desktop":"/medias/cheese-desktop.png",
+            "desktop":"/medias/aperture-overview-color.png",
             "mobile":"/medias/frog.jpg",
-            "hero":"/medias/cheese-desktop.png"
+            "hero":"/medias/aperture-overview.png"
         }, 
-        "theme":"rgb(136, 142, 98)",
+        "theme":"rgb(177,139,157)",
         "tech": ["React Native", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Supabase", "Figma", "JWT Authentication","Postman"], 
         "repoLink":"https://github.com/laurie8925/Aperture", 
+        "designImg": "/medias/aperture-feature.png",
+        "designExplain":"The homepage focuses on making movie browsing simple and immediate, offering direct access to a wide range of movies and categories right from the start.\nAnother design choice of the movie database app is its  dark purple theme, which is easy on the eye and enhances the app's visual appeal and immersive experience.",
         "takeawayOpening":"To improve my understanding for scripting, I decided to chanllenge myself to code an interactive game with a new language: ", 
         "takeawayList":["Type Safety", "Use of Interface and Types","Game Logic", "Uniform Audio Feature and Controls" ], 
         "takeawayEnding":"This project was challenging, but it was an amazing learning journey. There were many days when I was banging my head against the computer because I couldn't figure out why my game wasn't working the way I wanted, only to discover that different logic elements were contradicting each other. This project helped me understand how logic interacts within a system. It also allowed me to appreciate the advantages of using TypeScript for safe typing and error prevention."
