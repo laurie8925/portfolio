@@ -1,17 +1,5 @@
 [
     { 
-        "id":"html",
-        "title": "HTML5", 
-        "img": "html",
-        "type":"dev"
-    }, 
-    { 
-        "id":"css",
-        "title": "CSS 3", 
-        "img": "css",
-        "type":"dev"
-    },
-    { 
         "id":"javascript",
         "title": "Javascript", 
         "img": "javascript",
@@ -29,22 +17,22 @@
         "img": "react",
         "type":"dev"
     },
-    { 
-        "id":"jquery",
-        "title": "JQuery", 
-        "img": "jquery",
+    {
+        "id":"angular",
+        "title": "Angular", 
+        "img": "angular",
         "type":"dev"
     },
-    { 
-        "id":"sass",
-        "title": "SASS / SCSS", 
-        "img": "sass",
+    {
+        "id":"node",
+        "title": "Node", 
+        "img": "node",
         "type":"dev"
     },
-    { 
-        "id":"tailwind",
-        "title": "Tailwind", 
-        "img": "tailwind",
+    {
+        "id":"express",
+        "title": "Express.js", 
+        "img": "express",
         "type":"dev"
     },
     { 
@@ -60,9 +48,51 @@
         "type":"dev"
     },
     { 
+        "id":"html",
+        "title": "HTML5", 
+        "img": "html",
+        "type":"dev"
+    }, 
+    { 
+        "id":"css",
+        "title": "CSS 3", 
+        "img": "css",
+        "type":"dev"
+    },
+    { 
+        "id":"sass",
+        "title": "SASS / SCSS", 
+        "img": "sass",
+        "type":"dev"
+    },
+    { 
+        "id":"tailwind",
+        "title": "Tailwind", 
+        "img": "tailwind",
+        "type":"dev"
+    },
+    { 
+        "id":"tailwind",
+        "title": "Tailwind", 
+        "img": "tailwind",
+        "type":"dev"
+    },
+    { 
         "id":"mysql",
         "title": "MySQL", 
         "img": "mysql",
+        "type":"dev"
+    },
+    { 
+        "id":"postgressql",
+        "title": "PostgresSQL", 
+        "img": "postgressql",
+        "type":"dev"
+    },
+    { 
+        "id":"supabase",
+        "title": "Supabase", 
+        "img": "supabase",
         "type":"dev"
     },
     { 
@@ -96,18 +126,6 @@
         "img": "github",
         "type":"dev"
     }, 
-    { 
-        "id":"gulp",
-        "title": "Gulp", 
-        "img": "gulp",
-        "type":"dev"
-    },
-    { 
-        "id":"api",
-        "title": "Rest API", 
-        "img": "rest-api",
-        "type":"dev"
-    },
     { 
         "id":"figma",
         "title": "Figma", 
