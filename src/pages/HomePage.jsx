@@ -1,18 +1,15 @@
-import { useEffect, useState } from 'react'; 
-import { useLocation } from 'react-router-dom';
-import { useParams } from 'react-router-dom';
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 //components
-import Intro from '../components/Intro';
-import Feature from '../components/Feature';
-import About from "../components/About"; 
-import Contact from '../components/Contact';
-import Footer from '../components/Footer';
+import Intro from "../components/Intro";
+import Feature from "../components/Feature";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
-
-
-import logo from '../medias/portfolio-logo.svg'; 
-
+import logo from "../medias/portfolio-logo.svg";
 
 function HomePage() {
   const [dataLoaded, setDataLoaded] = useState(false);
@@ -28,34 +25,29 @@ function HomePage() {
 
   useEffect(() => {
     // Scroll to the about section if the URL contains the hash fragment '#about' and the data is loaded
-    if (dataLoaded && location.hash === '#about' && !aboutSectionLoaded) {
+    if (dataLoaded && location.hash === "#about" && !aboutSectionLoaded) {
       console.log("Scrolling to about section...");
-      const aboutSection = document.getElementById('about');
+      const aboutSection = document.getElementById("about");
       if (aboutSection) {
-        aboutSection.scrollIntoView({ behavior: 'smooth' });
+        aboutSection.scrollIntoView({ behavior: "smooth" });
         setAboutSectionLoaded(true); // Set about section loaded
       }
     }
   }, [dataLoaded, location.hash, aboutSectionLoaded]);
 
-
   return (
-    <body className='relative'>
-      
-        <img src={logo} alt="Logo" className='logo lg:w-1/12'/>
-      
-      
-      <main className='px-5'>
-        <Intro /> 
-        <Feature /> 
-        <About /> 
-        <Contact />
+    <body className="relative dark">
+      <img src={logo} alt="Logo" className="logo lg:w-1/12" />
 
+      <main className="px-5  bg-background">
+        <Intro />
+        <Feature />
+        <About />
+        <Contact />
       </main>
       <Footer />
     </body>
-   
-  )
-};
+  );
+}
 
-export default HomePage
+export default HomePage;

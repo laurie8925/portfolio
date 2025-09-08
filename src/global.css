@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* dark pink */
+  --theme: 255, 159, 159;
+  /* white */
+  --background: 255, 255, 255;
+  /* light pink */
+  --primary: 255, 239, 239;
+  --secondary: 255, 114, 137;
+  /* black */
+  --text-primary: 0, 0, 0;
+  --text-secondary: 0, 0, 0;
+}
+
+.dark {
+  /* yellow*/
+  --theme: 255, 252, 159;
+  /* dark blue */
+  --background: 0 0 26;
+  /* yellow */
+  --primary: 255, 252, 159;
+  /* yellow */
+  --secondary: 255, 252, 159;
+  /* white */
+  --text-primary: 255, 255, 255;
+  /* yellow */
+  --text-secondary: 255, 252, 159;
+}

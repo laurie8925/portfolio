@@ -51,7 +51,7 @@ const WorkList = ({ works }) => {
                     data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
                     className={`single-project gap-1 py-3 px-4 max-w-xs lg:max-w-md
               flex flex-col justify-center rounded-xl w-full ${
-                index % 3 === 0 || index === 4 ? "" : "bg-lightpink"
+                Math.floor((index + 1) / 2) % 2 === 0 ? "" : "bg-lightpink"
               }`}
                   >
                     <div className="relative md:w-full ">

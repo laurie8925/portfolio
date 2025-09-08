@@ -43,7 +43,6 @@
         "name": "WOWIES", 
         "overview": "A React App for browsing the latest movies and building your own favourite lists. ", 
         "detailOverview":"Wowies, a movie database React app, showcases my skills in frontend development. With an intuitive interface, this app offers users an engaging browsing experience through a diverse collection of films. Throughout the development process, I focused on creating a user-friendly and responsive application that caters to movie enthusiasts of all levels. This project demonstrates my proficiency with React and highlights my ability to tackle real-world challenges and deliver polished, user-centric solutions.",
-        "feature": true, 
         "image":{ 
             "desktop":"/medias/wowies-desktop.png",
             "mobile":"/medias/wowies-mobile.png",
