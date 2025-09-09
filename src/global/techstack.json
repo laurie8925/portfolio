@@ -72,12 +72,6 @@
         "type":"dev"
     },
     { 
-        "id":"tailwind",
-        "title": "Tailwind", 
-        "img": "tailwind",
-        "type":"dev"
-    },
-    { 
         "id":"mysql",
         "title": "MySQL", 
         "img": "mysql",

@@ -13,6 +13,7 @@
         "theme":"rgb(177,139,157)",
         "tech": ["React Native", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Supabase", "Figma", "JWT Authentication","Postman"], 
         "repoLink":"https://github.com/laurie8925/Aperture", 
+        "featureExplain":"This project creates a personal space for users to capture their daily reflections. Each user has their own account, where a new daily prompt automatically appears based on the date. You can respond with a single photo, add a quick note if you’d like, and watch your moments come together over time. The Home Page highlights your most recent entries, and there’s a live demo so you can explore everything for yourself.",
         "designImg": "/medias/aperture-feature.png",
         "designExplain":"The homepage focuses on making movie browsing simple and immediate, offering direct access to a wide range of movies and categories right from the start.\nAnother design choice of the movie database app is its  dark purple theme, which is easy on the eye and enhances the app's visual appeal and immersive experience.",
         "takeawayOpening":"To improve my understanding for scripting, I decided to chanllenge myself to code an interactive game with a new language: ", 
