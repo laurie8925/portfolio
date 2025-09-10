@@ -223,7 +223,7 @@ const WorkDetail = ({ works }) => {
               selectedWork.detailOverview
                 .split("\n")
                 .map((paragraph, index) => (
-                  <p key={index} data-aos="fade-up">
+                  <p key={index} data-aos="fade-up" className="my-3">
                     {paragraph}
                   </p>
                 ))}
@@ -250,7 +250,7 @@ const WorkDetail = ({ works }) => {
                   selectedWork.featureExplain
                     .split("\n")
                     .map((paragraph, index) => (
-                      <p key={index} className="my-2">
+                      <p key={index} className="my-3">
                         {paragraph}
                       </p>
                     ))}
@@ -291,7 +291,7 @@ const WorkDetail = ({ works }) => {
                   selectedWork.designExplain
                     .split("\n")
                     .map((paragraph, index) => (
-                      <p key={index} className="my-2">
+                      <p key={index} className="my-3">
                         {paragraph}
                       </p>
                     ))}
