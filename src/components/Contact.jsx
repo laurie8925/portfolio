@@ -37,14 +37,16 @@ const Contact = () => {
       {isTablet ? <Sparkle /> : ""}
 
       <h2
-        className="py-3 font-bold z-30"
+        className="py-3 font-bold z-30 text-textprimary"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
         Let's Connect!{" "}
       </h2>
       <div className="z-30" data-aos="fade-up" data-aos-duration="1000">
-        <h3 className=" text-center py-1 md:py-3">Chat with me</h3>
+        <h3 className=" text-center py-1 md:py-3 text-textprimary">
+          Chat with me
+        </h3>
 
         {/* either use div for the slider or use button tag to style the active state. (probably better to use button for mobile) */}
         {copiedEmail ? (
@@ -60,7 +62,7 @@ const Contact = () => {
         ) : (
           <button
             className="
-          flex flex-row items-center justify-center bg-theme text-white max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 
+          flex flex-row items-center justify-center bg-theme text-textsecondary max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 
           md:text-2xl md:py-4 md:px-12 md:max-w-80 button_slide
           active:ring-4 active:ring-theme active:bg-white active:text-theme"
             onClick={copyEmail}
@@ -71,8 +73,10 @@ const Contact = () => {
       </div>
 
       <div className="z-30" data-aos="fade-up" data-aos-duration="1000">
-        <h3 className=" text-center py-1 md:py-3">Connect with me</h3>
-        <button className="flex flex-row items-center justify-center bg-theme text-white max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 md:py-4 md:px-12 md:max-w-80 button_slide focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme">
+        <h3 className=" text-center py-1 md:py-3 text-textprimary">
+          Connect with me
+        </h3>
+        <button className="flex flex-row items-center justify-center bg-theme text-textsecondary max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 md:py-4 md:px-12 md:max-w-80 button_slide focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme">
           <a
             href="https://www.linkedin.com/in/laurieyeh1/"
             className="text-lg md:text-2xl"
@@ -84,8 +88,10 @@ const Contact = () => {
       </div>
 
       <div className="z-30" data-aos="fade-up" data-aos-duration="1000">
-        <h3 className=" text-center py-1 md:py-3">Check out my works</h3>
-        <button className="flex flex-row items-center justify-center bg-theme text-white max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 md:py-4 md:px-12 md:max-w-80 button_slide focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme">
+        <h3 className=" text-center py-1 md:py-3 text-textprimary">
+          Check out my works
+        </h3>
+        <button className="flex flex-row items-center justify-center bg-theme text-textsecondary max-w-32 py-2 px-6 rounded-full mx-auto text-lg w-40 md:py-4 md:px-12 md:max-w-80 button_slide focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme">
           <a
             href="https://github.com/laurie8925"
             className="text-lg md:text-2xl"

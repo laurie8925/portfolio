@@ -24,7 +24,7 @@ const About = () => {
     >
       <InView as="div" onChange={(inView, entry) => {}}>
         {InView ? (
-          <article className="max-w-sm md:max-w-5xl text-pretty md:text-lg lg:text-xl">
+          <article className="max-w-sm md:max-w-5xl text-pretty md:text-lg lg:text-xl text-textprimary">
             <p className="font-semibold" data-aos="fade-up">
               Hello 👋 Welcome to my corner of the web! <br />
               My name is Laurie, and I’m a Fullstack, Frontend Developer with
