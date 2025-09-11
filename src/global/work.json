@@ -1,5 +1,34 @@
 [
     { 
+        "id": "aperture", 
+        "name": "Aperture", 
+        "overview": "A wellness photo journaling app to capture moments and reflect on your day",
+        "detailOverview":"I wanted to make an app that would help me and others improve our wellness by changing our persepective of life by documenting our days with photos. Many of us are so focused on getting things done in our lives, constantly stressed, that we end up feeling burned out. \nThis app allows users to spend less than 5 minutes a day actively reflecting on the positive aspects of their day. It serves as a tool to help users build a good habit of thinking positively about their lives, even in small ways. Over time, it encourages us to appreciate the little things and realize that life isn’t as bad as we might thought it to be.", 
+        "feature": true, 
+        "image":{ 
+            "desktop":"/medias/aperture-overview-color.png",
+            "mobile":"/medias/frog.jpg",
+            "hero":"/medias/aperture-overview.png"
+        }, 
+        "theme":"rgb(177,139,157)",
+        "tech": ["React Native", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Supabase", "Figma", "JWT Authentication", "Postman", "Expo Go"], 
+        "repoLink":"https://github.com/laurie8925/Aperture", 
+        "featureExplain":"This app creates a personal space for users with their daily reflections. Each user gets their own account, where a new daily prompt appears automatically based on the date. You can respond with a single photo, add a quick note if you’d like, and watch your moments come together over time. The Home Page keeps your most recent entries, and there’s a demo on the github readme so you can take a look at how the app works.",
+        "designImg": "/medias/aperture-feature.png",
+        "designExplain":"This is my first time designing solely for mobile app, and I wanted the design to be 1) intuitive, 2) simple, and 3) easy on the eyes. I chose olive green and champagne white as the primary colors, with dark maroon as a secondary/accent color, to give the app an earthy, warm, and cozy feeling, aligning with its purpose as a reflection and wellness app. \nI kept the design simple: the homepage includes all the core features of the app, such as today's prompt (for creating a new entry), a list of past entries that users can click to view or edit, and a navigation bar for quick access to other screens.",
+        "takeawayOpening":"To challenge myself with a new framework or language similar to the ones I already know, within a two-week timespan for my bootcamp capstone project: ", 
+        "takeawayList": [
+            "Differences and similarities between mobile (React Native) and web (React) development",
+            "Mobile emulation and setup",
+            "Supabase cloud storage",
+            "Supabase and JWT custom authentication flow",
+            "Understanding PostgreSQL and MySQL similarities and differences",
+            "Supabase database structure",
+            "Time and project management under a tight timeline"
+        ],
+        "takeawayEnding": "It’s definitely an understatement to say this project was difficult, and I learned a lot from it. It challenged my understanding of the fundamentals, pushed me to make my knowledge transferable, and forced me to problem-solve in different ways when one approach didn’t work. I had to rewire my brain to think more flexibly and work under a really tight timeline. In the end, it made me more confident in tackling tough projects and figuring things out on the fly."
+    },
+    { 
         "id": "cheese", 
         "name": "Cheese Purrsuit", 
         "overview": "Fast-paced cat catching mouse Typescript game",
@@ -23,7 +52,6 @@
         "name": "WOWIES", 
         "overview": "A React App for browsing the latest movies and building your own favourite lists. ", 
         "detailOverview":"Wowies, a movie database React app, showcases my skills in frontend development. With an intuitive interface, this app offers users an engaging browsing experience through a diverse collection of films. Throughout the development process, I focused on creating a user-friendly and responsive application that caters to movie enthusiasts of all levels. This project demonstrates my proficiency with React and highlights my ability to tackle real-world challenges and deliver polished, user-centric solutions.",
-        "feature": true, 
         "image":{ 
             "desktop":"/medias/wowies-desktop.png",
             "mobile":"/medias/wowies-mobile.png",
