@@ -223,7 +223,7 @@ const WorkDetail = ({ works }) => {
               selectedWork.detailOverview
                 .split("\n")
                 .map((paragraph, index) => (
-                  <p key={index} data-aos="fade-up">
+                  <p key={index} data-aos="fade-up" className="my-3">
                     {paragraph}
                   </p>
                 ))}
@@ -250,7 +250,7 @@ const WorkDetail = ({ works }) => {
                   selectedWork.featureExplain
                     .split("\n")
                     .map((paragraph, index) => (
-                      <p key={index} className="my-2">
+                      <p key={index} className="my-3">
                         {paragraph}
                       </p>
                     ))}
@@ -291,7 +291,7 @@ const WorkDetail = ({ works }) => {
                   selectedWork.designExplain
                     .split("\n")
                     .map((paragraph, index) => (
-                      <p key={index} className="my-2">
+                      <p key={index} className="my-3">
                         {paragraph}
                       </p>
                     ))}
@@ -335,26 +335,28 @@ const WorkDetail = ({ works }) => {
                 <h4 className="text-lg text-center py-2 font-semibold">
                   Visit my other work
                 </h4>
-                <article
-                  className="single-project gap-y-3 py-3 px-4 max-w-56 
+                <Link to={`/work/${suggestWork.id}`}>
+                  <article
+                    className="single-project gap-y-3 py-3 px-4 max-w-56 
             flex flex-col justify-center rounded-xl bg-lightpink"
-                >
-                  <div className="relative md:w-full ">
-                    <img
-                      src={suggestWork.image.desktop}
-                      alt={`${suggestWork.name} desktop`}
-                      className="block h-auto w-full object-contain rounded-md"
-                    />
-                  </div>
-                  <Link
-                    to={`/work/${suggestWork.id}`}
-                    className="flex flex-row items-center justify-center bg-theme text-white text-sm
+                  >
+                    <div className="relative md:w-full ">
+                      <img
+                        src={suggestWork.image.desktop}
+                        alt={`${suggestWork.name} desktop`}
+                        className="block h-auto w-full object-contain rounded-md"
+                      />
+                    </div>
+                    <Link
+                      to={`/work/${suggestWork.id}`}
+                      className="flex flex-row items-center justify-center bg-theme text-white text-sm
                 max-w-52 py-1 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide
                 focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme"
-                  >
-                    {suggestWork.name}
-                  </Link>
-                </article>
+                    >
+                      {suggestWork.name}
+                    </Link>
+                  </article>
+                </Link>
               </div>
             )}
           </div>{" "}

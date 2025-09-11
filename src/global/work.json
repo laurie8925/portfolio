@@ -11,13 +11,22 @@
             "hero":"/medias/aperture-overview.png"
         }, 
         "theme":"rgb(177,139,157)",
-        "tech": ["React Native", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Supabase", "Figma", "JWT Authentication","Postman"], 
+        "tech": ["React Native", "Typescript", "Node.js", "Express.js", "PostgreSQL", "Supabase", "Figma", "JWT Authentication", "Postman", "Expo Go"], 
         "repoLink":"https://github.com/laurie8925/Aperture", 
+        "featureExplain":"This app creates a personal space for users with their daily reflections. Each user gets their own account, where a new daily prompt appears automatically based on the date. You can respond with a single photo, add a quick note if you’d like, and watch your moments come together over time. The Home Page keeps your most recent entries, and there’s a demo on the github readme so you can take a look at how the app works.",
         "designImg": "/medias/aperture-feature.png",
-        "designExplain":"The homepage focuses on making movie browsing simple and immediate, offering direct access to a wide range of movies and categories right from the start.\nAnother design choice of the movie database app is its  dark purple theme, which is easy on the eye and enhances the app's visual appeal and immersive experience.",
-        "takeawayOpening":"To improve my understanding for scripting, I decided to chanllenge myself to code an interactive game with a new language: ", 
-        "takeawayList":["Type Safety", "Use of Interface and Types","Game Logic", "Uniform Audio Feature and Controls" ], 
-        "takeawayEnding":"This project was challenging, but it was an amazing learning journey. There were many days when I was banging my head against the computer because I couldn't figure out why my game wasn't working the way I wanted, only to discover that different logic elements were contradicting each other. This project helped me understand how logic interacts within a system. It also allowed me to appreciate the advantages of using TypeScript for safe typing and error prevention."
+        "designExplain":"This is my first time designing solely for mobile app, and I wanted the design to be 1) intuitive, 2) simple, and 3) easy on the eyes. I chose olive green and champagne white as the primary colors, with dark maroon as a secondary/accent color, to give the app an earthy, warm, and cozy feeling, aligning with its purpose as a reflection and wellness app. \nI kept the design simple: the homepage includes all the core features of the app, such as today's prompt (for creating a new entry), a list of past entries that users can click to view or edit, and a navigation bar for quick access to other screens.",
+        "takeawayOpening":"To challenge myself with a new framework or language similar to the ones I already know, within a two-week timespan for my bootcamp capstone project: ", 
+        "takeawayList": [
+            "Differences and similarities between mobile (React Native) and web (React) development",
+            "Mobile emulation and setup",
+            "Supabase cloud storage",
+            "Supabase and JWT custom authentication flow",
+            "Understanding PostgreSQL and MySQL similarities and differences",
+            "Supabase database structure",
+            "Time and project management under a tight timeline"
+        ],
+        "takeawayEnding": "It’s definitely an understatement to say this project was difficult, and I learned a lot from it. It challenged my understanding of the fundamentals, pushed me to make my knowledge transferable, and forced me to problem-solve in different ways when one approach didn’t work. I had to rewire my brain to think more flexibly and work under a really tight timeline. In the end, it made me more confident in tackling tough projects and figuring things out on the fly."
     },
     { 
         "id": "cheese", 
