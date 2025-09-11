@@ -11,6 +11,7 @@ export default {
         st6: "rgba(var(--theme))",
         st7: "rgba(var(--primary))",
         textprimary: "rgba(var(--text-primary))",
+        textsecondary: "rgba(var(--text-secondary))",
       },
     },
   },

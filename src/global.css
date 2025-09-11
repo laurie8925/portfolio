@@ -12,7 +12,8 @@
   --secondary: 255, 114, 137;
   /* black */
   --text-primary: 0, 0, 0;
-  --text-secondary: 0, 0, 0;
+  /* white */
+  --text-secondary: 255, 255, 255;
 }
 
 .dark {
@@ -26,6 +27,6 @@
   --secondary: 255, 252, 159;
   /* white */
   --text-primary: 255, 255, 255;
-  /* yellow */
-  --text-secondary: 255, 252, 159;
+  /* black */
+  --text-secondary: 0, 0, 0;
 }

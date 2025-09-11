@@ -97,10 +97,6 @@ p {
   outline-color: rgb(255 159 159 / var(--tw-bg-opacity));
 }
 
-.star-icon {
-  fill: #ff9f9f;
-}
-
 .logo {
   width: 30%;
   position: absolute;
