@@ -27,8 +27,8 @@ const Intro = () => {
               flex flex-wrap  flex-row items-center justify-center bg-textprimary text-textsecondary 
               gap-x-2 md:gap-x-3 md:text-lg lg:text-3xl 
               text-sm 
-              max-w-52 py-3 px-3 rounded-full mx-auto md:py-5 md:px-6 md:max-w-80  button_slide hover:text-black hover:outline-theme
-              focus:ring-4 focus:ring-black focus:bg-white focus:text-black "
+              max-w-52 py-3 px-3 rounded-full mx-auto md:py-5 md:px-6 md:max-w-80  button_slide hover:text-black hover:outline-black
+              focus:ring-4 focus:ring-black focus:bg-white focus:text-black"
               >
                 <svg
                   width="23"

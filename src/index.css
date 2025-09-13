@@ -92,9 +92,9 @@ p {
 
 .button_slide:hover {
   box-shadow: inset 400px 0 0 0 #ffffff;
-  color: rgb(255 159 159 / var(--tw-bg-opacity));
+  color: rgb(255 159 159);
   outline-style: solid;
-  outline-color: rgb(255 159 159 / var(--tw-bg-opacity));
+  outline-color: rgb(255 159 159);
 }
 
 .logo {

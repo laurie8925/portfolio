@@ -1,6 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import work from "../global/work.json";
+import ThemeContext from "../global/ThemeContext";
 
 //inview
 import { InView } from "react-intersection-observer";
@@ -15,6 +16,7 @@ import Header from "../components/Header";
 const Feature = () => {
   const [workData, setWorkData] = useState(null);
   const [isLoaded, setLoadStatus] = useState(false);
+  const theme = useContext(ThemeContext);
 
   useEffect(() => {
     setTimeout(() => {
@@ -55,7 +57,11 @@ const Feature = () => {
                     <article
                       data-aos={index % 2 === 0 ? "fade-left" : "fade-right"}
                       className={`single-project flex flex-col flex-nowrap justify-between gap-1 py-3 px-4 max-w-sm md:flex-row md:gap-x-5 md:max-w-5xl ${
-                        index % 2 === 0 ? "rounded-xl bg-lightpink" : ""
+                        index % 2 === 0
+                          ? "rounded-xl bg-lightpink"
+                          : theme === "dark"
+                          ? "text-textprimary"
+                          : ""
                       }`}
                     >
                       <div className="relative md:w-1/2 md:p-2">
@@ -70,9 +76,16 @@ const Feature = () => {
                         <h3>{obj.name}</h3>
                         <p className="md:text-lg">{obj.overview}</p>
                         <Link
-                          className="flex flex-row items-center justify-center bg-theme text-white max-w-32 py-1 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide
-                      focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme"
-                          to={`/work/${obj.id}`}
+                          className={`flex flex-row items-center justify-center max-w-32 py-1 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide
+                      focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme
+                      ${
+                        theme === "dark"
+                          ? index % 2 === 0
+                            ? "bg-background text-textprimary"
+                            : "bg-theme text-textsecondary"
+                          : "bg-theme text-textsecondary"
+                      }`}
+                          to="/work"
                         >
                           View Work
                         </Link>
@@ -88,9 +101,9 @@ const Feature = () => {
 
           <div data-aos="fade-right">
             <Link
-              className="flex flex-row items-center justify-center bg-theme text-white text-sm mt-5 md:mt-8 md:mb-2
-          max-w-52 py-2 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide
-          focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme"
+              className={`flex flex-row items-center justify-center bg-theme text-sm mt-5 md:mt-8 md:mb-2
+          max-w-52 py-2 px-3 rounded-full mx-auto md:py-2 md:px-6 md:max-w-80 md:text-lg button_slide hover:text-theme hover:outline-theme
+          focus:ring-4 focus:ring-theme focus:bg-white focus:text-theme text-textsecondary`}
               to="/work"
             >
               View All Work →
