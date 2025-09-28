@@ -36,12 +36,12 @@ const About = () => {
             <p data-aos="fade-up">
               I’m a recent graduate from the University of Toronto with a
               Bachelor of Science in Molecular Biology and minors in Psychology
-              and Environmental Science. During my studies, I discovered a
-              passion for technology and decided to dive give it try by
-              completing BrainStation’s Software Engineering Bootcamp and BCIT’s
-              Front-End Web Development Program. Now, I’m excited to bring
-              together my science background and new tech skills to build
-              creative and impactful digital apps.
+              and Environmental ScienceDuring my studies, I discovered a passion
+              for technology and decided to explore it further by completing
+              BrainStation’s Software Engineering Bootcamp and BCIT’s Front-End
+              Web Development Program. Now, I’m excited to combine my science
+              background with my new tech skills to create innovative and
+              impactful digital applications.
             </p>
 
             <br />
