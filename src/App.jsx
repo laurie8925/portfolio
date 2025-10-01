@@ -3,7 +3,7 @@ import AppRouter from "./routers/AppRouter";
 import ThemeContext from "./global/ThemeContext";
 
 function App() {
-  const [theme, setTheme] = useState("");
+  const [theme, setTheme] = useState("dark");
 
   return (
     <ThemeContext.Provider value={theme}>

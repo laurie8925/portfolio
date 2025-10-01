@@ -250,7 +250,7 @@ p {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
+  /* background-color: #fff; */
   z-index: 1000; /* Ensure it appears above other content */
 }
 
@@ -258,7 +258,7 @@ p {
   width: 120px;
   height: 22px;
   border-radius: 20px;
-  color: #ff9f9f;
+  color: rgba(var(--theme));
   border: 2px solid;
   position: relative;
   position: absolute;
@@ -321,29 +321,29 @@ footer {
 }
 
 .footer-icons {
-  stroke: #ff9f9fc5;
+  /* stroke: #ff9f9fc5; */
 
   &:active {
     transform: translateY(-5px);
     transition: transform 0.2s ease;
-    stroke: #ff9f9f;
+    /* stroke: #ff9f9f; */
   }
 
   @media (min-width: 768px) {
-    stroke: #ffffffd1;
+    /* stroke: #ffffff; */
     height: 35px;
     &:hover {
       transform: translateY(-5px);
       transition: transform 0.2s ease;
-      stroke: white;
+      /* stroke: white; */
     }
   }
 }
 
 .github-footer:hover {
-  fill: #ff9f9f;
+  /* fill: #ff9f9f; */
   @media (min-width: 768px) {
-    fill: white;
+    /* fill: white; */
   }
 }
 
