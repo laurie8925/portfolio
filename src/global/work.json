@@ -107,7 +107,7 @@
         }, 
         "theme":"rgb(170 191 131)",
         "tech": ["WordPress", "PHP", "Sass", "Gulp", "PHP", "Figma"], 
-        "repoLink":"https://github.com/laurie8925/matchacafe-theme", 
+        "repoLink":"https://github.com/laurie8925/froth-matcha", 
         "designImg": null,
         "takeawayOpening":"While working in a team of four, the Froth Matcha Cafe allowed us to pratcied the following skills: ", 
         "takeawayList":["Customizing a WordPress theme and appropriate selection of plugins","Planning content plan, information architeture and wireframing", "Agile tools and methodologies for project management"], 
